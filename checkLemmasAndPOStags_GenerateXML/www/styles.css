@@ -1,0 +1,185 @@
+.title {
+    text-align: center;
+    font-family: Dosis;
+    font-weight: bold;
+    font-size: 170%;
+    white-space: nowrap;
+    background: linear-gradient(to right, #c5313d, #1391ab 70%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.Title {
+    margin-left: -15px;
+    margin-right: -15px;
+    padding-left: 20px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 18px;
+    color: white;
+    background-image: linear-gradient(to right, #9acaaa, #02a2cb);
+}
+
+.navbar {
+    background-color: white;
+    border-bottom: 2px solid #dedede;
+}
+
+nav .container-fluid {
+    margin-left: 23px;
+}
+
+.navbar {
+    font-size: 17px;
+}
+
+.navbar .navbar-header {
+    height: 0;
+}
+
+.navbar-default {
+    height: 53px;
+}
+
+/* ************************************************************************** */
+
+.menu {
+    color: grey;
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+.tooltip {
+    width: 300px;
+}
+
+body {
+    font-family: Dosis;
+    color: #000000;
+    overflow-x: hidden;
+    font-size: 18px;
+}
+
+.text {
+    font-size: 18px;
+}
+
+h4 {
+    font-size: 18px;
+}
+
+.minHeight0 {
+    min-height: calc(100vh - 132px);
+}
+
+.Button {
+    font-size: 16px;
+}
+
+/* ************************************************************************** */
+
+hr {
+    border-color: #CCCCCC;
+    margin-left: 0;
+    margin-top: 6px;
+    margin-bottom: 2px;
+}
+
+#listSources {
+    font-size: 17px;
+    height: calc(100vh - 400px);
+}
+
+#lemtagButton {
+    font-size: 17px;
+}
+
+.format {
+    font-size: 14px;
+    font-weight: bold;
+}
+
+/* ************************************************************************** */
+
+.shiny-input-container:not(.shiny-input-container-inline) {
+    width: 100%;
+}
+
+#resultTAB {
+    font-family: 'Times New Roman', serif;
+    font-size: 16px;
+    color: black;
+    margin-left: 30px;
+}
+
+/* ************************************************************************** */
+
+.modal-backdrop {
+    display: none;
+}
+
+.modal {
+    pointer-events: none;
+}
+
+.modal-dialog {
+    width: 450px;
+}
+
+.modal-content {
+    pointer-events: all;
+}
+
+.modal-body {
+    max-height: 700px;
+    overflow-y: scroll;
+}
+
+.shinybusy-modal {
+    overflow-y: hidden;
+}
+
+/* ************************************************************************** */
+
+.shiny-split-layout > div { 
+    overflow: visible;
+}
+
+.selectize-control .selectize-dropdown {
+    position: static !important;
+}
+
+/* ************************************************************************** */
+
+#noOCR, #thanks1, #thanks2 {
+    overflow-y: hidden !important;
+}
+
+.thanks > .modal {
+    display: flex !important;
+    align-items: center;
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+/* ************************************************************************** */
+
+footer {
+    margin-top: -7px;
+    bottom: 0;
+    width: 100%;
+    height: 40px;
+    color: white;
+    z-index: -1;
+    background-color: #eeeeee;
+}
+
+.balk a {
+    text-decoration: none;
+    outline: none;
+}
+
+.balk a:hover {
+    text-decoration: none;
+    outline: none;
+}
