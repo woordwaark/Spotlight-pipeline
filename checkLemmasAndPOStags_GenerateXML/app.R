@@ -4,6 +4,7 @@
 library(shiny)
 library(shinyBS)
 library(shinyWidgets)
+library(shinyjs)
 library(shinyjqui)
 library(fresh)
 library(stringr)
@@ -22,7 +23,7 @@ library(magrittr)
 
 ################################################################################
 
-addResourcePath("docs", "../grunnegs/docs")
+addResourcePath("docs", "docs")
 
 ################################################################################
 
