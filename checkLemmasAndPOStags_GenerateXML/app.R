@@ -23,6 +23,7 @@ library(magrittr)
 
 ################################################################################
 
+addResourcePath("www" , "www" )
 addResourcePath("docs", "docs")
 
 ################################################################################
@@ -416,7 +417,10 @@ server <- function(input, output, session)
                     this.render();
                   }"
 
-    hot_col(hot        = rhandsontable(global$resultTAB, width = input$width - 150, height = input$height - 270, colWidths = c(120, 370, 270, 117, 60), rowHeaders=T, search = T),
+    iw <- input$width
+    cw <- (iw/3) - 170
+
+    hot_col(hot        = rhandsontable(global$resultTAB, width = iw - 150, height = input$height - 280, colWidths = c(cw, cw, 117, 117, cw), rowHeaders=T, search = T),
             col        = "line",
             format     = "0a",
             customOpts = list(search = list(name = "Search", callback = htmlwidgets::JS(searchFUN))))
