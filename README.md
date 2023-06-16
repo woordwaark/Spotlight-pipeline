@@ -30,11 +30,11 @@ For a source the following metadata can be included: editor, title, source type 
 
 For a article the following metadata can be included: author, title, genre (prose, poetry), language1 (normally Gronings), language2 (if another language is used as well), comments.
 
-We developed a web app that can be used for entering the meta data. The app is found in this GitHub repository in the folder addMetaData_CheckText . The app is implemented in R Shiny. Knowledge about R and the R package Shiny is required in order to install this app.
+We developed a web app that can be used for entering the meta data. The app is found in this GitHub repository in the folder `addMetaData_CheckText`. The app is implemented in R Shiny. Knowledge about R and the R package Shiny is required in order to install this app.
 
-The app takes the PDFs with text layers as input. When a volunteer processes a PDF, the text layer is extracted from the PDF, and the PDF and the text are shown side by side in the app. In order to enter the meta data of a source, the volunteer selects a source and clicks on ‘Voer metadata in’. Then in the next screen the volunteer clicks on Bron and enters  the data in the input fields. When clicking OK, the data is pasted at the beginning of the text. All meta data lines of the source start with $. Then for each article the volunteer clicks the Artikel button and enters the data. After clicking OK, the data is copied to  the clipboard. Then the volunteer click in  the text right before where the article begins and pastes the data. All meta data lines of the article start with #.
+The app takes the PDFs with text layers as input. When a volunteer processes a PDF, the text layer is extracted from the PDF, and the PDF and the text are shown side by side in the app. In order to enter the meta data of a source, the volunteer selects a source and clicks on **Voer metadata in**. Then in the next screen the volunteer clicks on **Bron** and enters  the data in the input fields. When clicking OK, the data is pasted at the beginning of the text. All metadata lines of the source start with $. Then for each article the volunteer clicks the **Artikel** button and enters the data. After clicking OK, the data is copied to  the clipboard. Then the volunteer clicks in the text right before where the article begins and pastes the data. All meta data lines of the article start with #.
 
-For an extensive manual see handleiding.pdf in the folder addMetaData_CheckText.
+For an extensive manual see `handleiding.pdf` in the folder `addMetaData_CheckText`.
 
 The login credentials of  the app are: 
 user name: woordwaark
@@ -42,16 +42,16 @@ password: w00rdw@@rk
 
 Further comments:
 
-1. db.xlsx contains meta data that will be automatically filled in in the input fields when the volunteer clicks the Bron button.
-2. The PDFs with textlayer are put in the subfolder ‘docs’.
-3. Credentials of users that are authorized to use  the program are found in the file data.csv which is found in the subfolder ‘auth’.
+1. db.xlsx contains meta data that will be automatically filled in in the input fields when the volunteer clicks the **Bron** button.
+2. The PDFs with textlayer are put in the subfolder `docs`.
+3. Credentials of users that are authorized to use  the program are found in the file `data.csv` which is found in the subfolder `auth`.
 
 ## 4. Checking the texts
 
 The OCR text is also checked in the same app in which the metadata is added. The check includes the following:
 
 1. Correcting glaring OCR errors such as wrong and/or strange characters.
-2. We are only interested in sentences that are written in Gronings.  So (large amounts of) text that is not written in Gronings, and data like a title page, a table of contents, a colophon are removed.
+2. We are only interested in sentences that are written in Gronings.  So (large amounts of) text that is not written in Gronings, and data like a title page, a table of contents or a colophon are removed.
 
 ## 5. Adding lemma’s and part-of-speech-tags
 
