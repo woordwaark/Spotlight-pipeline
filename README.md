@@ -55,9 +55,13 @@ The OCR text is also checked in the same app in which the metadata is added. The
 
 ## 5. Adding lemma’s and part-of-speech-tags
 
-Dutch lemmas are used as lemmas. Lemmatizing is important for two reasons:
+We developed a lemmatizer which lemmatizes tokens in Gronings to lemmas in Dutch. Assigning Dutch lemmas to tokens in texts that are written in Gronings is important for two reasons:
 
 1. This allows the user to search the corpus in both Gronings (via the tokens) and Dutch (lemmas);
-2. Regional, morphological and spelling variants of a word are 'linked' in this way. For example, if a user searches via the Dutch word _huis_ (English house), sentences with the following with all variants are found: _hoes_, _huus_, _hoeske_, _huusie_, etc. If the user searches for the Groningen word _hoes_, it is possible not only to find sentences that include the word _hoes_, but also sentences that include _huus_, _hoeske_ and _huusie_.
+2. Regional, morphological and spelling variants of a word are 'linked' in this way. For example, if a user searches via the Dutch word _huis_ (English house), sentences with all Groningen variants are found: _hoes_, _huus_, _hoeske_, _huusie_, etc. If the user searches for the Groningen word _hoes_, it is possible not only to find sentences that include the word _hoes_, but also sentences that include _huus_, _hoeske_ and _huusie_.
+
+
+
+
 
 ## 6. Saving as XML files
