@@ -60,6 +60,7 @@ We developed a lemmatizer which lemmatizes tokens in Gronings to lemmas in Dutch
 1. This allows the user to search the corpus in both Gronings (via the tokens) and Dutch (lemmas);
 2. Regional, morphological and spelling variants of a word are 'linked' in this way. For example, if a user searches via the Dutch word _huis_ (English house), sentences with all Groningen variants are found: _hoes_, _huus_, _hoeske_, _huusie_, etc. If the user searches for the Groningen word _hoes_, it is possible not only to find sentences that include the word _hoes_, but also sentences that include _huus_, _hoeske_ and _huusie_.
 
+To be able to lemmatize, a computer model must be trained on the basis of a training corpus. Our training corpus consisted of six texts in Groningen, a file of 109765 tokens, 93739 words and 6513 sentences. When allocating the lemmas, a Dutch cognate was chosen where possible. If there was no cognate in Dutch for the Groningen word, a non-cognate was chosen.
 
 
 
