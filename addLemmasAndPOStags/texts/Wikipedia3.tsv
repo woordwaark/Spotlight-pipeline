@@ -1,0 +1,290 @@
+doc_id	paragraph_id	sentence_id	sentence	token_id	token	lemma	upos	misc	start	end
+doc1	1	1	Wikipedia , de vrije encyclopedie , B. Dijkstra , and others , 2023 , Hoogelaandsters , Wikipedia Q2484953	1	Wikipedia	Wikipedia	INTJ		1	9
+doc1	1	1	Wikipedia , de vrije encyclopedie , B. Dijkstra , and others , 2023 , Hoogelaandsters , Wikipedia Q2484953	2	,	,	PUNCT	SpacesAfter=\s\s	10	10
+doc1	1	1	Wikipedia , de vrije encyclopedie , B. Dijkstra , and others , 2023 , Hoogelaandsters , Wikipedia Q2484953	3	de	de	DET		12	13
+doc1	1	1	Wikipedia , de vrije encyclopedie , B. Dijkstra , and others , 2023 , Hoogelaandsters , Wikipedia Q2484953	4	vrije	vrij	ADJ		15	19
+doc1	1	1	Wikipedia , de vrije encyclopedie , B. Dijkstra , and others , 2023 , Hoogelaandsters , Wikipedia Q2484953	5	encyclopedie	encyclopeetje	NOUN		21	32
+doc1	1	1	Wikipedia , de vrije encyclopedie , B. Dijkstra , and others , 2023 , Hoogelaandsters , Wikipedia Q2484953	6	,	,	PUNCT	SpacesAfter=\s\s	33	33
+doc1	1	1	Wikipedia , de vrije encyclopedie , B. Dijkstra , and others , 2023 , Hoogelaandsters , Wikipedia Q2484953	7	B.	B	PROPN		35	36
+doc1	1	1	Wikipedia , de vrije encyclopedie , B. Dijkstra , and others , 2023 , Hoogelaandsters , Wikipedia Q2484953	8	Dijkstra	Dijkstra	PROPN		38	45
+doc1	1	1	Wikipedia , de vrije encyclopedie , B. Dijkstra , and others , 2023 , Hoogelaandsters , Wikipedia Q2484953	9	,	,	PUNCT	SpacesAfter=\s\s	46	46
+doc1	1	1	Wikipedia , de vrije encyclopedie , B. Dijkstra , and others , 2023 , Hoogelaandsters , Wikipedia Q2484953	10	and	and	ADV		48	50
+doc1	1	1	Wikipedia , de vrije encyclopedie , B. Dijkstra , and others , 2023 , Hoogelaandsters , Wikipedia Q2484953	11	others	other	NOUN		52	57
+doc1	1	1	Wikipedia , de vrije encyclopedie , B. Dijkstra , and others , 2023 , Hoogelaandsters , Wikipedia Q2484953	12	,	,	PUNCT	SpacesAfter=\s\s	58	58
+doc1	1	1	Wikipedia , de vrije encyclopedie , B. Dijkstra , and others , 2023 , Hoogelaandsters , Wikipedia Q2484953	13	2023	2023	NUM		60	63
+doc1	1	1	Wikipedia , de vrije encyclopedie , B. Dijkstra , and others , 2023 , Hoogelaandsters , Wikipedia Q2484953	14	,	,	PUNCT	SpacesAfter=\s\s	64	64
+doc1	1	1	Wikipedia , de vrije encyclopedie , B. Dijkstra , and others , 2023 , Hoogelaandsters , Wikipedia Q2484953	15	Hoogelaandsters	Hoogelaandster	PROPN		66	80
+doc1	1	1	Wikipedia , de vrije encyclopedie , B. Dijkstra , and others , 2023 , Hoogelaandsters , Wikipedia Q2484953	16	,	,	PUNCT	SpacesAfter=\s\s	81	81
+doc1	1	1	Wikipedia , de vrije encyclopedie , B. Dijkstra , and others , 2023 , Hoogelaandsters , Wikipedia Q2484953	17	Wikipedia	Wikipedia	PROPN		83	91
+doc1	1	1	Wikipedia , de vrije encyclopedie , B. Dijkstra , and others , 2023 , Hoogelaandsters , Wikipedia Q2484953	18	Q2484953	Q248495	NUM	SpacesAfter=\n\n	93	100
+doc1	2	2	t Hoogelaandsters ( ook : Noordgrunnegs ) is n Nedersaksisch dialekt dat proat wordt opt Hoogelaand , t noordelke dail van t provìnzie Grunnen .	1	t	het	PRON		103	103
+doc1	2	2	t Hoogelaandsters ( ook : Noordgrunnegs ) is n Nedersaksisch dialekt dat proat wordt opt Hoogelaand , t noordelke dail van t provìnzie Grunnen .	2	Hoogelaandsters	Hoogelaandster	NOUN	SpacesAfter=\s\s	105	119
+doc1	2	2	t Hoogelaandsters ( ook : Noordgrunnegs ) is n Nedersaksisch dialekt dat proat wordt opt Hoogelaand , t noordelke dail van t provìnzie Grunnen .	3	(	(	PUNCT		121	121
+doc1	2	2	t Hoogelaandsters ( ook : Noordgrunnegs ) is n Nedersaksisch dialekt dat proat wordt opt Hoogelaand , t noordelke dail van t provìnzie Grunnen .	4	ook	ook	ADV		122	124
+doc1	2	2	t Hoogelaandsters ( ook : Noordgrunnegs ) is n Nedersaksisch dialekt dat proat wordt opt Hoogelaand , t noordelke dail van t provìnzie Grunnen .	5	:	:	PUNCT	SpacesAfter=\s\s	125	125
+doc1	2	2	t Hoogelaandsters ( ook : Noordgrunnegs ) is n Nedersaksisch dialekt dat proat wordt opt Hoogelaand , t noordelke dail van t provìnzie Grunnen .	6	Noordgrunnegs	Noordgronings	PROPN		127	139
+doc1	2	2	t Hoogelaandsters ( ook : Noordgrunnegs ) is n Nedersaksisch dialekt dat proat wordt opt Hoogelaand , t noordelke dail van t provìnzie Grunnen .	7	)	)	PUNCT	SpacesAfter=\s\s	140	140
+doc1	2	2	t Hoogelaandsters ( ook : Noordgrunnegs ) is n Nedersaksisch dialekt dat proat wordt opt Hoogelaand , t noordelke dail van t provìnzie Grunnen .	8	is	zijn	AUX		142	143
+doc1	2	2	t Hoogelaandsters ( ook : Noordgrunnegs ) is n Nedersaksisch dialekt dat proat wordt opt Hoogelaand , t noordelke dail van t provìnzie Grunnen .	9	n	een	DET		145	145
+doc1	2	2	t Hoogelaandsters ( ook : Noordgrunnegs ) is n Nedersaksisch dialekt dat proat wordt opt Hoogelaand , t noordelke dail van t provìnzie Grunnen .	10	Nedersaksisch	Nedersaksisch	PROPN		147	159
+doc1	2	2	t Hoogelaandsters ( ook : Noordgrunnegs ) is n Nedersaksisch dialekt dat proat wordt opt Hoogelaand , t noordelke dail van t provìnzie Grunnen .	11	dialekt	dialect	VERB		161	167
+doc1	2	2	t Hoogelaandsters ( ook : Noordgrunnegs ) is n Nedersaksisch dialekt dat proat wordt opt Hoogelaand , t noordelke dail van t provìnzie Grunnen .	12	dat	dat	SCONJ		169	171
+doc1	2	2	t Hoogelaandsters ( ook : Noordgrunnegs ) is n Nedersaksisch dialekt dat proat wordt opt Hoogelaand , t noordelke dail van t provìnzie Grunnen .	13	proat	spreken	VERB		173	177
+doc1	2	2	t Hoogelaandsters ( ook : Noordgrunnegs ) is n Nedersaksisch dialekt dat proat wordt opt Hoogelaand , t noordelke dail van t provìnzie Grunnen .	14	wordt	worden	AUX		179	183
+doc1	2	2	t Hoogelaandsters ( ook : Noordgrunnegs ) is n Nedersaksisch dialekt dat proat wordt opt Hoogelaand , t noordelke dail van t provìnzie Grunnen .	15	opt	oppen	VERB		185	187
+doc1	2	2	t Hoogelaandsters ( ook : Noordgrunnegs ) is n Nedersaksisch dialekt dat proat wordt opt Hoogelaand , t noordelke dail van t provìnzie Grunnen .	16	Hoogelaand	Hoogeland	PROPN		189	198
+doc1	2	2	t Hoogelaandsters ( ook : Noordgrunnegs ) is n Nedersaksisch dialekt dat proat wordt opt Hoogelaand , t noordelke dail van t provìnzie Grunnen .	17	,	,	PUNCT	SpacesAfter=\s\s	199	199
+doc1	2	2	t Hoogelaandsters ( ook : Noordgrunnegs ) is n Nedersaksisch dialekt dat proat wordt opt Hoogelaand , t noordelke dail van t provìnzie Grunnen .	18	t	het	PRON		201	201
+doc1	2	2	t Hoogelaandsters ( ook : Noordgrunnegs ) is n Nedersaksisch dialekt dat proat wordt opt Hoogelaand , t noordelke dail van t provìnzie Grunnen .	19	noordelke	noordelk	ADJ		203	211
+doc1	2	2	t Hoogelaandsters ( ook : Noordgrunnegs ) is n Nedersaksisch dialekt dat proat wordt opt Hoogelaand , t noordelke dail van t provìnzie Grunnen .	20	dail	deel	NOUN		213	216
+doc1	2	2	t Hoogelaandsters ( ook : Noordgrunnegs ) is n Nedersaksisch dialekt dat proat wordt opt Hoogelaand , t noordelke dail van t provìnzie Grunnen .	21	van	van	ADP		218	220
+doc1	2	2	t Hoogelaandsters ( ook : Noordgrunnegs ) is n Nedersaksisch dialekt dat proat wordt opt Hoogelaand , t noordelke dail van t provìnzie Grunnen .	22	t	het	DET		222	222
+doc1	2	2	t Hoogelaandsters ( ook : Noordgrunnegs ) is n Nedersaksisch dialekt dat proat wordt opt Hoogelaand , t noordelke dail van t provìnzie Grunnen .	23	provìnzie	provìnzie	NOUN		224	232
+doc1	2	2	t Hoogelaandsters ( ook : Noordgrunnegs ) is n Nedersaksisch dialekt dat proat wordt opt Hoogelaand , t noordelke dail van t provìnzie Grunnen .	24	Grunnen	Groningen	PROPN		234	240
+doc1	2	2	t Hoogelaandsters ( ook : Noordgrunnegs ) is n Nedersaksisch dialekt dat proat wordt opt Hoogelaand , t noordelke dail van t provìnzie Grunnen .	25	.	.	PUNCT	SpacesAfter=\n	241	241
+doc1	2	3	t Toalgebied van t Hoogelaandsters wordt begrènzt deur stad Grunnen ien t zuden , t Rietdaip ien t zuudwesten , t Lauwersmeer ien t noordwesten , t Wad ien t noorden , de Ems ien t noordoosten en t Damsterdaip ien t zuudoosten .	1	t	het	DET		243	243
+doc1	2	3	t Toalgebied van t Hoogelaandsters wordt begrènzt deur stad Grunnen ien t zuden , t Rietdaip ien t zuudwesten , t Lauwersmeer ien t noordwesten , t Wad ien t noorden , de Ems ien t noordoosten en t Damsterdaip ien t zuudoosten .	2	Toalgebied	Toalgebied	NOUN		245	254
+doc1	2	3	t Toalgebied van t Hoogelaandsters wordt begrènzt deur stad Grunnen ien t zuden , t Rietdaip ien t zuudwesten , t Lauwersmeer ien t noordwesten , t Wad ien t noorden , de Ems ien t noordoosten en t Damsterdaip ien t zuudoosten .	3	van	van	ADP		256	258
+doc1	2	3	t Toalgebied van t Hoogelaandsters wordt begrènzt deur stad Grunnen ien t zuden , t Rietdaip ien t zuudwesten , t Lauwersmeer ien t noordwesten , t Wad ien t noorden , de Ems ien t noordoosten en t Damsterdaip ien t zuudoosten .	4	t	het	DET	SpacesAfter=\s\s	260	260
+doc1	2	3	t Toalgebied van t Hoogelaandsters wordt begrènzt deur stad Grunnen ien t zuden , t Rietdaip ien t zuudwesten , t Lauwersmeer ien t noordwesten , t Wad ien t noorden , de Ems ien t noordoosten en t Damsterdaip ien t zuudoosten .	5	Hoogelaandsters	Hoogelaandster	NOUN		263	277
+doc1	2	3	t Toalgebied van t Hoogelaandsters wordt begrènzt deur stad Grunnen ien t zuden , t Rietdaip ien t zuudwesten , t Lauwersmeer ien t noordwesten , t Wad ien t noorden , de Ems ien t noordoosten en t Damsterdaip ien t zuudoosten .	6	wordt	worden	AUX		279	283
+doc1	2	3	t Toalgebied van t Hoogelaandsters wordt begrènzt deur stad Grunnen ien t zuden , t Rietdaip ien t zuudwesten , t Lauwersmeer ien t noordwesten , t Wad ien t noorden , de Ems ien t noordoosten en t Damsterdaip ien t zuudoosten .	7	begrènzt	begrènzt	VERB		285	292
+doc1	2	3	t Toalgebied van t Hoogelaandsters wordt begrènzt deur stad Grunnen ien t zuden , t Rietdaip ien t zuudwesten , t Lauwersmeer ien t noordwesten , t Wad ien t noorden , de Ems ien t noordoosten en t Damsterdaip ien t zuudoosten .	8	deur	door	ADP		294	297
+doc1	2	3	t Toalgebied van t Hoogelaandsters wordt begrènzt deur stad Grunnen ien t zuden , t Rietdaip ien t zuudwesten , t Lauwersmeer ien t noordwesten , t Wad ien t noorden , de Ems ien t noordoosten en t Damsterdaip ien t zuudoosten .	9	stad	stad	NOUN		299	302
+doc1	2	3	t Toalgebied van t Hoogelaandsters wordt begrènzt deur stad Grunnen ien t zuden , t Rietdaip ien t zuudwesten , t Lauwersmeer ien t noordwesten , t Wad ien t noorden , de Ems ien t noordoosten en t Damsterdaip ien t zuudoosten .	10	Grunnen	Groningen	PROPN		304	310
+doc1	2	3	t Toalgebied van t Hoogelaandsters wordt begrènzt deur stad Grunnen ien t zuden , t Rietdaip ien t zuudwesten , t Lauwersmeer ien t noordwesten , t Wad ien t noorden , de Ems ien t noordoosten en t Damsterdaip ien t zuudoosten .	11	ien	in	ADP		312	314
+doc1	2	3	t Toalgebied van t Hoogelaandsters wordt begrènzt deur stad Grunnen ien t zuden , t Rietdaip ien t zuudwesten , t Lauwersmeer ien t noordwesten , t Wad ien t noorden , de Ems ien t noordoosten en t Damsterdaip ien t zuudoosten .	12	t	het	DET		316	316
+doc1	2	3	t Toalgebied van t Hoogelaandsters wordt begrènzt deur stad Grunnen ien t zuden , t Rietdaip ien t zuudwesten , t Lauwersmeer ien t noordwesten , t Wad ien t noorden , de Ems ien t noordoosten en t Damsterdaip ien t zuudoosten .	13	zuden	zuiden	NOUN		318	322
+doc1	2	3	t Toalgebied van t Hoogelaandsters wordt begrènzt deur stad Grunnen ien t zuden , t Rietdaip ien t zuudwesten , t Lauwersmeer ien t noordwesten , t Wad ien t noorden , de Ems ien t noordoosten en t Damsterdaip ien t zuudoosten .	14	,	,	PUNCT	SpacesAfter=\s\s	323	323
+doc1	2	3	t Toalgebied van t Hoogelaandsters wordt begrènzt deur stad Grunnen ien t zuden , t Rietdaip ien t zuudwesten , t Lauwersmeer ien t noordwesten , t Wad ien t noorden , de Ems ien t noordoosten en t Damsterdaip ien t zuudoosten .	15	t	het	DET		325	325
+doc1	2	3	t Toalgebied van t Hoogelaandsters wordt begrènzt deur stad Grunnen ien t zuden , t Rietdaip ien t zuudwesten , t Lauwersmeer ien t noordwesten , t Wad ien t noorden , de Ems ien t noordoosten en t Damsterdaip ien t zuudoosten .	16	Rietdaip	Rietdiep	NOUN		327	334
+doc1	2	3	t Toalgebied van t Hoogelaandsters wordt begrènzt deur stad Grunnen ien t zuden , t Rietdaip ien t zuudwesten , t Lauwersmeer ien t noordwesten , t Wad ien t noorden , de Ems ien t noordoosten en t Damsterdaip ien t zuudoosten .	17	ien	in	ADP		336	338
+doc1	2	3	t Toalgebied van t Hoogelaandsters wordt begrènzt deur stad Grunnen ien t zuden , t Rietdaip ien t zuudwesten , t Lauwersmeer ien t noordwesten , t Wad ien t noorden , de Ems ien t noordoosten en t Damsterdaip ien t zuudoosten .	18	t	het	DET		340	340
+doc1	2	3	t Toalgebied van t Hoogelaandsters wordt begrènzt deur stad Grunnen ien t zuden , t Rietdaip ien t zuudwesten , t Lauwersmeer ien t noordwesten , t Wad ien t noorden , de Ems ien t noordoosten en t Damsterdaip ien t zuudoosten .	19	zuudwesten	zuudwest	NOUN		342	351
+doc1	2	3	t Toalgebied van t Hoogelaandsters wordt begrènzt deur stad Grunnen ien t zuden , t Rietdaip ien t zuudwesten , t Lauwersmeer ien t noordwesten , t Wad ien t noorden , de Ems ien t noordoosten en t Damsterdaip ien t zuudoosten .	20	,	,	PUNCT	SpacesAfter=\s\s	352	352
+doc1	2	3	t Toalgebied van t Hoogelaandsters wordt begrènzt deur stad Grunnen ien t zuden , t Rietdaip ien t zuudwesten , t Lauwersmeer ien t noordwesten , t Wad ien t noorden , de Ems ien t noordoosten en t Damsterdaip ien t zuudoosten .	21	t	het	DET		354	354
+doc1	2	3	t Toalgebied van t Hoogelaandsters wordt begrènzt deur stad Grunnen ien t zuden , t Rietdaip ien t zuudwesten , t Lauwersmeer ien t noordwesten , t Wad ien t noorden , de Ems ien t noordoosten en t Damsterdaip ien t zuudoosten .	22	Lauwersmeer	Lauwersmeer	NOUN		356	366
+doc1	2	3	t Toalgebied van t Hoogelaandsters wordt begrènzt deur stad Grunnen ien t zuden , t Rietdaip ien t zuudwesten , t Lauwersmeer ien t noordwesten , t Wad ien t noorden , de Ems ien t noordoosten en t Damsterdaip ien t zuudoosten .	23	ien	in	ADP		368	370
+doc1	2	3	t Toalgebied van t Hoogelaandsters wordt begrènzt deur stad Grunnen ien t zuden , t Rietdaip ien t zuudwesten , t Lauwersmeer ien t noordwesten , t Wad ien t noorden , de Ems ien t noordoosten en t Damsterdaip ien t zuudoosten .	24	t	het	DET		372	372
+doc1	2	3	t Toalgebied van t Hoogelaandsters wordt begrènzt deur stad Grunnen ien t zuden , t Rietdaip ien t zuudwesten , t Lauwersmeer ien t noordwesten , t Wad ien t noorden , de Ems ien t noordoosten en t Damsterdaip ien t zuudoosten .	25	noordwesten	noordwest	NOUN		374	384
+doc1	2	3	t Toalgebied van t Hoogelaandsters wordt begrènzt deur stad Grunnen ien t zuden , t Rietdaip ien t zuudwesten , t Lauwersmeer ien t noordwesten , t Wad ien t noorden , de Ems ien t noordoosten en t Damsterdaip ien t zuudoosten .	26	,	,	PUNCT	SpacesAfter=\s\s	385	385
+doc1	2	3	t Toalgebied van t Hoogelaandsters wordt begrènzt deur stad Grunnen ien t zuden , t Rietdaip ien t zuudwesten , t Lauwersmeer ien t noordwesten , t Wad ien t noorden , de Ems ien t noordoosten en t Damsterdaip ien t zuudoosten .	27	t	het	DET		387	387
+doc1	2	3	t Toalgebied van t Hoogelaandsters wordt begrènzt deur stad Grunnen ien t zuden , t Rietdaip ien t zuudwesten , t Lauwersmeer ien t noordwesten , t Wad ien t noorden , de Ems ien t noordoosten en t Damsterdaip ien t zuudoosten .	28	Wad	wad	NOUN		389	391
+doc1	2	3	t Toalgebied van t Hoogelaandsters wordt begrènzt deur stad Grunnen ien t zuden , t Rietdaip ien t zuudwesten , t Lauwersmeer ien t noordwesten , t Wad ien t noorden , de Ems ien t noordoosten en t Damsterdaip ien t zuudoosten .	29	ien	in	ADP		393	395
+doc1	2	3	t Toalgebied van t Hoogelaandsters wordt begrènzt deur stad Grunnen ien t zuden , t Rietdaip ien t zuudwesten , t Lauwersmeer ien t noordwesten , t Wad ien t noorden , de Ems ien t noordoosten en t Damsterdaip ien t zuudoosten .	30	t	het	DET		397	397
+doc1	2	3	t Toalgebied van t Hoogelaandsters wordt begrènzt deur stad Grunnen ien t zuden , t Rietdaip ien t zuudwesten , t Lauwersmeer ien t noordwesten , t Wad ien t noorden , de Ems ien t noordoosten en t Damsterdaip ien t zuudoosten .	31	noorden	noorden	NOUN		399	405
+doc1	2	3	t Toalgebied van t Hoogelaandsters wordt begrènzt deur stad Grunnen ien t zuden , t Rietdaip ien t zuudwesten , t Lauwersmeer ien t noordwesten , t Wad ien t noorden , de Ems ien t noordoosten en t Damsterdaip ien t zuudoosten .	32	,	,	PUNCT	SpacesAfter=\s\s	406	406
+doc1	2	3	t Toalgebied van t Hoogelaandsters wordt begrènzt deur stad Grunnen ien t zuden , t Rietdaip ien t zuudwesten , t Lauwersmeer ien t noordwesten , t Wad ien t noorden , de Ems ien t noordoosten en t Damsterdaip ien t zuudoosten .	33	de	de	DET		408	409
+doc1	2	3	t Toalgebied van t Hoogelaandsters wordt begrènzt deur stad Grunnen ien t zuden , t Rietdaip ien t zuudwesten , t Lauwersmeer ien t noordwesten , t Wad ien t noorden , de Ems ien t noordoosten en t Damsterdaip ien t zuudoosten .	34	Ems	ems	NOUN		411	413
+doc1	2	3	t Toalgebied van t Hoogelaandsters wordt begrènzt deur stad Grunnen ien t zuden , t Rietdaip ien t zuudwesten , t Lauwersmeer ien t noordwesten , t Wad ien t noorden , de Ems ien t noordoosten en t Damsterdaip ien t zuudoosten .	35	ien	in	ADP		415	417
+doc1	2	3	t Toalgebied van t Hoogelaandsters wordt begrènzt deur stad Grunnen ien t zuden , t Rietdaip ien t zuudwesten , t Lauwersmeer ien t noordwesten , t Wad ien t noorden , de Ems ien t noordoosten en t Damsterdaip ien t zuudoosten .	36	t	het	DET		419	419
+doc1	2	3	t Toalgebied van t Hoogelaandsters wordt begrènzt deur stad Grunnen ien t zuden , t Rietdaip ien t zuudwesten , t Lauwersmeer ien t noordwesten , t Wad ien t noorden , de Ems ien t noordoosten en t Damsterdaip ien t zuudoosten .	37	noordoosten	noordoost	NOUN		421	431
+doc1	2	3	t Toalgebied van t Hoogelaandsters wordt begrènzt deur stad Grunnen ien t zuden , t Rietdaip ien t zuudwesten , t Lauwersmeer ien t noordwesten , t Wad ien t noorden , de Ems ien t noordoosten en t Damsterdaip ien t zuudoosten .	38	en	en	CCONJ		433	434
+doc1	2	3	t Toalgebied van t Hoogelaandsters wordt begrènzt deur stad Grunnen ien t zuden , t Rietdaip ien t zuudwesten , t Lauwersmeer ien t noordwesten , t Wad ien t noorden , de Ems ien t noordoosten en t Damsterdaip ien t zuudoosten .	39	t	het	DET		436	436
+doc1	2	3	t Toalgebied van t Hoogelaandsters wordt begrènzt deur stad Grunnen ien t zuden , t Rietdaip ien t zuudwesten , t Lauwersmeer ien t noordwesten , t Wad ien t noorden , de Ems ien t noordoosten en t Damsterdaip ien t zuudoosten .	40	Damsterdaip	Damsterdiep	PROPN		438	448
+doc1	2	3	t Toalgebied van t Hoogelaandsters wordt begrènzt deur stad Grunnen ien t zuden , t Rietdaip ien t zuudwesten , t Lauwersmeer ien t noordwesten , t Wad ien t noorden , de Ems ien t noordoosten en t Damsterdaip ien t zuudoosten .	41	ien	in	ADP		450	452
+doc1	2	3	t Toalgebied van t Hoogelaandsters wordt begrènzt deur stad Grunnen ien t zuden , t Rietdaip ien t zuudwesten , t Lauwersmeer ien t noordwesten , t Wad ien t noorden , de Ems ien t noordoosten en t Damsterdaip ien t zuudoosten .	42	t	het	DET		454	454
+doc1	2	3	t Toalgebied van t Hoogelaandsters wordt begrènzt deur stad Grunnen ien t zuden , t Rietdaip ien t zuudwesten , t Lauwersmeer ien t noordwesten , t Wad ien t noorden , de Ems ien t noordoosten en t Damsterdaip ien t zuudoosten .	43	zuudoosten	zuudoost	NOUN		456	465
+doc1	2	3	t Toalgebied van t Hoogelaandsters wordt begrènzt deur stad Grunnen ien t zuden , t Rietdaip ien t zuudwesten , t Lauwersmeer ien t noordwesten , t Wad ien t noorden , de Ems ien t noordoosten en t Damsterdaip ien t zuudoosten .	44	.	.	PUNCT	SpacesAfter=\n	466	466
+doc1	2	4	De steden Delfziel en t Daam , dij t aan t noordelke zied van t Damsterdaip liggen ( opt Hoogelaand dus ) , heuren toalkundeg bie t Oldambtster dialektgebied .	1	De	de	DET		468	469
+doc1	2	4	De steden Delfziel en t Daam , dij t aan t noordelke zied van t Damsterdaip liggen ( opt Hoogelaand dus ) , heuren toalkundeg bie t Oldambtster dialektgebied .	2	steden	stad	NOUN		471	476
+doc1	2	4	De steden Delfziel en t Daam , dij t aan t noordelke zied van t Damsterdaip liggen ( opt Hoogelaand dus ) , heuren toalkundeg bie t Oldambtster dialektgebied .	3	Delfziel	nelfzier	PROPN		478	485
+doc1	2	4	De steden Delfziel en t Daam , dij t aan t noordelke zied van t Damsterdaip liggen ( opt Hoogelaand dus ) , heuren toalkundeg bie t Oldambtster dialektgebied .	4	en	en	CCONJ		487	488
+doc1	2	4	De steden Delfziel en t Daam , dij t aan t noordelke zied van t Damsterdaip liggen ( opt Hoogelaand dus ) , heuren toalkundeg bie t Oldambtster dialektgebied .	5	t	het	DET		490	490
+doc1	2	4	De steden Delfziel en t Daam , dij t aan t noordelke zied van t Damsterdaip liggen ( opt Hoogelaand dus ) , heuren toalkundeg bie t Oldambtster dialektgebied .	6	Daam	Daam	PROPN		492	495
+doc1	2	4	De steden Delfziel en t Daam , dij t aan t noordelke zied van t Damsterdaip liggen ( opt Hoogelaand dus ) , heuren toalkundeg bie t Oldambtster dialektgebied .	7	,	,	PUNCT	SpacesAfter=\s\s	496	496
+doc1	2	4	De steden Delfziel en t Daam , dij t aan t noordelke zied van t Damsterdaip liggen ( opt Hoogelaand dus ) , heuren toalkundeg bie t Oldambtster dialektgebied .	8	dij	die	PRON		498	500
+doc1	2	4	De steden Delfziel en t Daam , dij t aan t noordelke zied van t Damsterdaip liggen ( opt Hoogelaand dus ) , heuren toalkundeg bie t Oldambtster dialektgebied .	9	t	het	PRON		502	502
+doc1	2	4	De steden Delfziel en t Daam , dij t aan t noordelke zied van t Damsterdaip liggen ( opt Hoogelaand dus ) , heuren toalkundeg bie t Oldambtster dialektgebied .	10	aan	aan	ADP		504	506
+doc1	2	4	De steden Delfziel en t Daam , dij t aan t noordelke zied van t Damsterdaip liggen ( opt Hoogelaand dus ) , heuren toalkundeg bie t Oldambtster dialektgebied .	11	t	het	DET		508	508
+doc1	2	4	De steden Delfziel en t Daam , dij t aan t noordelke zied van t Damsterdaip liggen ( opt Hoogelaand dus ) , heuren toalkundeg bie t Oldambtster dialektgebied .	12	noordelke	noordelijk	ADJ		510	518
+doc1	2	4	De steden Delfziel en t Daam , dij t aan t noordelke zied van t Damsterdaip liggen ( opt Hoogelaand dus ) , heuren toalkundeg bie t Oldambtster dialektgebied .	13	zied	zij	NOUN		520	523
+doc1	2	4	De steden Delfziel en t Daam , dij t aan t noordelke zied van t Damsterdaip liggen ( opt Hoogelaand dus ) , heuren toalkundeg bie t Oldambtster dialektgebied .	14	van	van	ADP		525	527
+doc1	2	4	De steden Delfziel en t Daam , dij t aan t noordelke zied van t Damsterdaip liggen ( opt Hoogelaand dus ) , heuren toalkundeg bie t Oldambtster dialektgebied .	15	t	het	DET		529	529
+doc1	2	4	De steden Delfziel en t Daam , dij t aan t noordelke zied van t Damsterdaip liggen ( opt Hoogelaand dus ) , heuren toalkundeg bie t Oldambtster dialektgebied .	16	Damsterdaip	Damsterdiep	PROPN		531	541
+doc1	2	4	De steden Delfziel en t Daam , dij t aan t noordelke zied van t Damsterdaip liggen ( opt Hoogelaand dus ) , heuren toalkundeg bie t Oldambtster dialektgebied .	17	liggen	liggen	VERB	SpacesAfter=\s\s	543	548
+doc1	2	4	De steden Delfziel en t Daam , dij t aan t noordelke zied van t Damsterdaip liggen ( opt Hoogelaand dus ) , heuren toalkundeg bie t Oldambtster dialektgebied .	18	(	(	PUNCT		550	550
+doc1	2	4	De steden Delfziel en t Daam , dij t aan t noordelke zied van t Damsterdaip liggen ( opt Hoogelaand dus ) , heuren toalkundeg bie t Oldambtster dialektgebied .	19	opt	oppen	VERB		551	553
+doc1	2	4	De steden Delfziel en t Daam , dij t aan t noordelke zied van t Damsterdaip liggen ( opt Hoogelaand dus ) , heuren toalkundeg bie t Oldambtster dialektgebied .	20	Hoogelaand	Hoogeland	PROPN		555	564
+doc1	2	4	De steden Delfziel en t Daam , dij t aan t noordelke zied van t Damsterdaip liggen ( opt Hoogelaand dus ) , heuren toalkundeg bie t Oldambtster dialektgebied .	21	dus	dus	ADV		566	568
+doc1	2	4	De steden Delfziel en t Daam , dij t aan t noordelke zied van t Damsterdaip liggen ( opt Hoogelaand dus ) , heuren toalkundeg bie t Oldambtster dialektgebied .	22	)	)	PUNCT	SpacesAfter=\s\s	569	569
+doc1	2	4	De steden Delfziel en t Daam , dij t aan t noordelke zied van t Damsterdaip liggen ( opt Hoogelaand dus ) , heuren toalkundeg bie t Oldambtster dialektgebied .	23	,	,	PUNCT	SpacesAfter=\s\s	570	570
+doc1	2	4	De steden Delfziel en t Daam , dij t aan t noordelke zied van t Damsterdaip liggen ( opt Hoogelaand dus ) , heuren toalkundeg bie t Oldambtster dialektgebied .	24	heuren	horen	VERB		572	577
+doc1	2	4	De steden Delfziel en t Daam , dij t aan t noordelke zied van t Damsterdaip liggen ( opt Hoogelaand dus ) , heuren toalkundeg bie t Oldambtster dialektgebied .	25	toalkundeg	toalkundig	ADV		579	588
+doc1	2	4	De steden Delfziel en t Daam , dij t aan t noordelke zied van t Damsterdaip liggen ( opt Hoogelaand dus ) , heuren toalkundeg bie t Oldambtster dialektgebied .	26	bie	bij	ADP		590	592
+doc1	2	4	De steden Delfziel en t Daam , dij t aan t noordelke zied van t Damsterdaip liggen ( opt Hoogelaand dus ) , heuren toalkundeg bie t Oldambtster dialektgebied .	27	t	het	DET		594	594
+doc1	2	4	De steden Delfziel en t Daam , dij t aan t noordelke zied van t Damsterdaip liggen ( opt Hoogelaand dus ) , heuren toalkundeg bie t Oldambtster dialektgebied .	28	Oldambtster	Oldambtster	PROPN		596	606
+doc1	2	4	De steden Delfziel en t Daam , dij t aan t noordelke zied van t Damsterdaip liggen ( opt Hoogelaand dus ) , heuren toalkundeg bie t Oldambtster dialektgebied .	29	dialektgebied	dialektgebied	ADV		608	620
+doc1	2	4	De steden Delfziel en t Daam , dij t aan t noordelke zied van t Damsterdaip liggen ( opt Hoogelaand dus ) , heuren toalkundeg bie t Oldambtster dialektgebied .	30	.	.	PUNCT	SpacesAfter=\s\n	621	621
+doc1	2	5	t Hoogelaandsters wordt tegenswoordeg proat deur om en bie 55.000 minsken en is ain van dialekten die bie een bult minsken leeft van Grunnen .	1	t	het	DET		624	624
+doc1	2	5	t Hoogelaandsters wordt tegenswoordeg proat deur om en bie 55.000 minsken en is ain van dialekten die bie een bult minsken leeft van Grunnen .	2	Hoogelaandsters	Hoogelaandster	NOUN		626	640
+doc1	2	5	t Hoogelaandsters wordt tegenswoordeg proat deur om en bie 55.000 minsken en is ain van dialekten die bie een bult minsken leeft van Grunnen .	3	wordt	worden	AUX		642	646
+doc1	2	5	t Hoogelaandsters wordt tegenswoordeg proat deur om en bie 55.000 minsken en is ain van dialekten die bie een bult minsken leeft van Grunnen .	4	tegenswoordeg	tegenswoordig	ADJ		648	660
+doc1	2	5	t Hoogelaandsters wordt tegenswoordeg proat deur om en bie 55.000 minsken en is ain van dialekten die bie een bult minsken leeft van Grunnen .	5	proat	praten	VERB		662	666
+doc1	2	5	t Hoogelaandsters wordt tegenswoordeg proat deur om en bie 55.000 minsken en is ain van dialekten die bie een bult minsken leeft van Grunnen .	6	deur	door	ADP		668	671
+doc1	2	5	t Hoogelaandsters wordt tegenswoordeg proat deur om en bie 55.000 minsken en is ain van dialekten die bie een bult minsken leeft van Grunnen .	7	om	om	ADP		673	674
+doc1	2	5	t Hoogelaandsters wordt tegenswoordeg proat deur om en bie 55.000 minsken en is ain van dialekten die bie een bult minsken leeft van Grunnen .	8	en	en	CCONJ		676	677
+doc1	2	5	t Hoogelaandsters wordt tegenswoordeg proat deur om en bie 55.000 minsken en is ain van dialekten die bie een bult minsken leeft van Grunnen .	9	bie	nabij	ADP		679	681
+doc1	2	5	t Hoogelaandsters wordt tegenswoordeg proat deur om en bie 55.000 minsken en is ain van dialekten die bie een bult minsken leeft van Grunnen .	10	55.000	55.000	NUM		683	688
+doc1	2	5	t Hoogelaandsters wordt tegenswoordeg proat deur om en bie 55.000 minsken en is ain van dialekten die bie een bult minsken leeft van Grunnen .	11	minsken	minssen	NOUN		690	696
+doc1	2	5	t Hoogelaandsters wordt tegenswoordeg proat deur om en bie 55.000 minsken en is ain van dialekten die bie een bult minsken leeft van Grunnen .	12	en	en	CCONJ		698	699
+doc1	2	5	t Hoogelaandsters wordt tegenswoordeg proat deur om en bie 55.000 minsken en is ain van dialekten die bie een bult minsken leeft van Grunnen .	13	is	zijn	AUX		701	702
+doc1	2	5	t Hoogelaandsters wordt tegenswoordeg proat deur om en bie 55.000 minsken en is ain van dialekten die bie een bult minsken leeft van Grunnen .	14	ain	een	NUM		704	706
+doc1	2	5	t Hoogelaandsters wordt tegenswoordeg proat deur om en bie 55.000 minsken en is ain van dialekten die bie een bult minsken leeft van Grunnen .	15	van	van	ADP		708	710
+doc1	2	5	t Hoogelaandsters wordt tegenswoordeg proat deur om en bie 55.000 minsken en is ain van dialekten die bie een bult minsken leeft van Grunnen .	16	dialekten	dialekten	VERB		712	720
+doc1	2	5	t Hoogelaandsters wordt tegenswoordeg proat deur om en bie 55.000 minsken en is ain van dialekten die bie een bult minsken leeft van Grunnen .	17	die	die	PRON		722	724
+doc1	2	5	t Hoogelaandsters wordt tegenswoordeg proat deur om en bie 55.000 minsken en is ain van dialekten die bie een bult minsken leeft van Grunnen .	18	bie	bij	ADP		726	728
+doc1	2	5	t Hoogelaandsters wordt tegenswoordeg proat deur om en bie 55.000 minsken en is ain van dialekten die bie een bult minsken leeft van Grunnen .	19	een	een	DET		730	732
+doc1	2	5	t Hoogelaandsters wordt tegenswoordeg proat deur om en bie 55.000 minsken en is ain van dialekten die bie een bult minsken leeft van Grunnen .	20	bult	hoop	NOUN		734	737
+doc1	2	5	t Hoogelaandsters wordt tegenswoordeg proat deur om en bie 55.000 minsken en is ain van dialekten die bie een bult minsken leeft van Grunnen .	21	minsken	minssen	VERB		739	745
+doc1	2	5	t Hoogelaandsters wordt tegenswoordeg proat deur om en bie 55.000 minsken en is ain van dialekten die bie een bult minsken leeft van Grunnen .	22	leeft	leven	VERB		747	751
+doc1	2	5	t Hoogelaandsters wordt tegenswoordeg proat deur om en bie 55.000 minsken en is ain van dialekten die bie een bult minsken leeft van Grunnen .	23	van	van	ADP		753	755
+doc1	2	5	t Hoogelaandsters wordt tegenswoordeg proat deur om en bie 55.000 minsken en is ain van dialekten die bie een bult minsken leeft van Grunnen .	24	Grunnen	Groningen	PROPN		757	763
+doc1	2	5	t Hoogelaandsters wordt tegenswoordeg proat deur om en bie 55.000 minsken en is ain van dialekten die bie een bult minsken leeft van Grunnen .	25	.	.	PUNCT	SpacesAfter=\s\n	764	764
+doc1	2	6	Doch minsen die het proaten wordt stoaregaan minder , omreden dat maisten oet oldern bestait .	1	Doch	doch	ADV		767	770
+doc1	2	6	Doch minsen die het proaten wordt stoaregaan minder , omreden dat maisten oet oldern bestait .	2	minsen	mens	NOUN		772	777
+doc1	2	6	Doch minsen die het proaten wordt stoaregaan minder , omreden dat maisten oet oldern bestait .	3	die	die	PRON		779	781
+doc1	2	6	Doch minsen die het proaten wordt stoaregaan minder , omreden dat maisten oet oldern bestait .	4	het	het	AUX		783	785
+doc1	2	6	Doch minsen die het proaten wordt stoaregaan minder , omreden dat maisten oet oldern bestait .	5	proaten	spreken	VERB		787	793
+doc1	2	6	Doch minsen die het proaten wordt stoaregaan minder , omreden dat maisten oet oldern bestait .	6	wordt	worden	AUX		795	799
+doc1	2	6	Doch minsen die het proaten wordt stoaregaan minder , omreden dat maisten oet oldern bestait .	7	stoaregaan	langzaamaan	ADV		801	810
+doc1	2	6	Doch minsen die het proaten wordt stoaregaan minder , omreden dat maisten oet oldern bestait .	8	minder	minder	ADV		812	817
+doc1	2	6	Doch minsen die het proaten wordt stoaregaan minder , omreden dat maisten oet oldern bestait .	9	,	,	PUNCT	SpacesAfter=\s\s	818	818
+doc1	2	6	Doch minsen die het proaten wordt stoaregaan minder , omreden dat maisten oet oldern bestait .	10	omreden	omdat	SCONJ		820	826
+doc1	2	6	Doch minsen die het proaten wordt stoaregaan minder , omreden dat maisten oet oldern bestait .	11	dat	dat	PRON		828	830
+doc1	2	6	Doch minsen die het proaten wordt stoaregaan minder , omreden dat maisten oet oldern bestait .	12	maisten	maisten	NOUN		832	838
+doc1	2	6	Doch minsen die het proaten wordt stoaregaan minder , omreden dat maisten oet oldern bestait .	13	oet	uit	ADP		840	842
+doc1	2	6	Doch minsen die het proaten wordt stoaregaan minder , omreden dat maisten oet oldern bestait .	14	oldern	olderen	NOUN		844	849
+doc1	2	6	Doch minsen die het proaten wordt stoaregaan minder , omreden dat maisten oet oldern bestait .	15	bestait	bestan	VERB		851	857
+doc1	2	6	Doch minsen die het proaten wordt stoaregaan minder , omreden dat maisten oet oldern bestait .	16	.	.	PUNCT	SpacesAfter=\s\n	858	858
+doc1	2	7	t Hoogelaandsters wordt over t algemain zain as t maist karakteristieke dialekt van Grunnen , dat der ien zien beste vörm proat wordt .	1	t	het	DET		861	861
+doc1	2	7	t Hoogelaandsters wordt over t algemain zain as t maist karakteristieke dialekt van Grunnen , dat der ien zien beste vörm proat wordt .	2	Hoogelaandsters	Hoogelaandster	NOUN		863	877
+doc1	2	7	t Hoogelaandsters wordt over t algemain zain as t maist karakteristieke dialekt van Grunnen , dat der ien zien beste vörm proat wordt .	3	wordt	worden	AUX		879	883
+doc1	2	7	t Hoogelaandsters wordt over t algemain zain as t maist karakteristieke dialekt van Grunnen , dat der ien zien beste vörm proat wordt .	4	over	over	ADP		885	888
+doc1	2	7	t Hoogelaandsters wordt over t algemain zain as t maist karakteristieke dialekt van Grunnen , dat der ien zien beste vörm proat wordt .	5	t	het	DET		890	890
+doc1	2	7	t Hoogelaandsters wordt over t algemain zain as t maist karakteristieke dialekt van Grunnen , dat der ien zien beste vörm proat wordt .	6	algemain	algemeen	NOUN		892	899
+doc1	2	7	t Hoogelaandsters wordt over t algemain zain as t maist karakteristieke dialekt van Grunnen , dat der ien zien beste vörm proat wordt .	7	zain	zien	VERB		901	904
+doc1	2	7	t Hoogelaandsters wordt over t algemain zain as t maist karakteristieke dialekt van Grunnen , dat der ien zien beste vörm proat wordt .	8	as	als	SCONJ		906	907
+doc1	2	7	t Hoogelaandsters wordt over t algemain zain as t maist karakteristieke dialekt van Grunnen , dat der ien zien beste vörm proat wordt .	9	t	het	PRON		909	909
+doc1	2	7	t Hoogelaandsters wordt over t algemain zain as t maist karakteristieke dialekt van Grunnen , dat der ien zien beste vörm proat wordt .	10	maist	veel	ADV		911	915
+doc1	2	7	t Hoogelaandsters wordt over t algemain zain as t maist karakteristieke dialekt van Grunnen , dat der ien zien beste vörm proat wordt .	11	karakteristieke	karakteristijk	NOUN		917	931
+doc1	2	7	t Hoogelaandsters wordt over t algemain zain as t maist karakteristieke dialekt van Grunnen , dat der ien zien beste vörm proat wordt .	12	dialekt	dialect	VERB		933	939
+doc1	2	7	t Hoogelaandsters wordt over t algemain zain as t maist karakteristieke dialekt van Grunnen , dat der ien zien beste vörm proat wordt .	13	van	van	ADP		941	943
+doc1	2	7	t Hoogelaandsters wordt over t algemain zain as t maist karakteristieke dialekt van Grunnen , dat der ien zien beste vörm proat wordt .	14	Grunnen	Groningen	PROPN		945	951
+doc1	2	7	t Hoogelaandsters wordt over t algemain zain as t maist karakteristieke dialekt van Grunnen , dat der ien zien beste vörm proat wordt .	15	,	,	PUNCT	SpacesAfter=\s\s	952	952
+doc1	2	7	t Hoogelaandsters wordt over t algemain zain as t maist karakteristieke dialekt van Grunnen , dat der ien zien beste vörm proat wordt .	16	dat	dat	PRON		954	956
+doc1	2	7	t Hoogelaandsters wordt over t algemain zain as t maist karakteristieke dialekt van Grunnen , dat der ien zien beste vörm proat wordt .	17	der	er	ADV		958	960
+doc1	2	7	t Hoogelaandsters wordt over t algemain zain as t maist karakteristieke dialekt van Grunnen , dat der ien zien beste vörm proat wordt .	18	ien	in	ADP		962	964
+doc1	2	7	t Hoogelaandsters wordt over t algemain zain as t maist karakteristieke dialekt van Grunnen , dat der ien zien beste vörm proat wordt .	19	zien	zijn	PRON		966	969
+doc1	2	7	t Hoogelaandsters wordt over t algemain zain as t maist karakteristieke dialekt van Grunnen , dat der ien zien beste vörm proat wordt .	20	beste	goed	ADJ		971	975
+doc1	2	7	t Hoogelaandsters wordt over t algemain zain as t maist karakteristieke dialekt van Grunnen , dat der ien zien beste vörm proat wordt .	21	vörm	vorm	NOUN		977	980
+doc1	2	7	t Hoogelaandsters wordt over t algemain zain as t maist karakteristieke dialekt van Grunnen , dat der ien zien beste vörm proat wordt .	22	proat	spreken	VERB		982	986
+doc1	2	7	t Hoogelaandsters wordt over t algemain zain as t maist karakteristieke dialekt van Grunnen , dat der ien zien beste vörm proat wordt .	23	wordt	worden	AUX		988	992
+doc1	2	7	t Hoogelaandsters wordt over t algemain zain as t maist karakteristieke dialekt van Grunnen , dat der ien zien beste vörm proat wordt .	24	.	.	PUNCT	SpacesAfter=\s\n	993	993
+doc1	2	8	Dat komt middelkerwies deurdat ien t Hoogelaands de typisch Grunnegse twaiklanken ” ai ” en ” ou ” hail veul veurkommen , bieveurbeeld ien ” kouk ” en ” stain ” .	1	Dat	dat	PRON		996	998
+doc1	2	8	Dat komt middelkerwies deurdat ien t Hoogelaands de typisch Grunnegse twaiklanken ” ai ” en ” ou ” hail veul veurkommen , bieveurbeeld ien ” kouk ” en ” stain ” .	2	komt	komen	VERB		1000	1003
+doc1	2	8	Dat komt middelkerwies deurdat ien t Hoogelaands de typisch Grunnegse twaiklanken ” ai ” en ” ou ” hail veul veurkommen , bieveurbeeld ien ” kouk ” en ” stain ” .	3	middelkerwies	natuurlijk	ADV		1005	1017
+doc1	2	8	Dat komt middelkerwies deurdat ien t Hoogelaands de typisch Grunnegse twaiklanken ” ai ” en ” ou ” hail veul veurkommen , bieveurbeeld ien ” kouk ” en ” stain ” .	4	deurdat	deurdat	SCONJ		1019	1025
+doc1	2	8	Dat komt middelkerwies deurdat ien t Hoogelaands de typisch Grunnegse twaiklanken ” ai ” en ” ou ” hail veul veurkommen , bieveurbeeld ien ” kouk ” en ” stain ” .	5	ien	in	ADP		1027	1029
+doc1	2	8	Dat komt middelkerwies deurdat ien t Hoogelaands de typisch Grunnegse twaiklanken ” ai ” en ” ou ” hail veul veurkommen , bieveurbeeld ien ” kouk ” en ” stain ” .	6	t	het	DET		1031	1031
+doc1	2	8	Dat komt middelkerwies deurdat ien t Hoogelaands de typisch Grunnegse twaiklanken ” ai ” en ” ou ” hail veul veurkommen , bieveurbeeld ien ” kouk ” en ” stain ” .	7	Hoogelaands	Hoogelaands	PROPN		1033	1043
+doc1	2	8	Dat komt middelkerwies deurdat ien t Hoogelaands de typisch Grunnegse twaiklanken ” ai ” en ” ou ” hail veul veurkommen , bieveurbeeld ien ” kouk ” en ” stain ” .	8	de	de	DET		1045	1046
+doc1	2	8	Dat komt middelkerwies deurdat ien t Hoogelaands de typisch Grunnegse twaiklanken ” ai ” en ” ou ” hail veul veurkommen , bieveurbeeld ien ” kouk ” en ” stain ” .	9	typisch	typisch	NOUN		1048	1054
+doc1	2	8	Dat komt middelkerwies deurdat ien t Hoogelaands de typisch Grunnegse twaiklanken ” ai ” en ” ou ” hail veul veurkommen , bieveurbeeld ien ” kouk ” en ” stain ” .	10	Grunnegse	Gronings	ADJ		1056	1064
+doc1	2	8	Dat komt middelkerwies deurdat ien t Hoogelaands de typisch Grunnegse twaiklanken ” ai ” en ” ou ” hail veul veurkommen , bieveurbeeld ien ” kouk ” en ” stain ” .	11	twaiklanken	twaiklanken	VERB		1066	1076
+doc1	2	8	Dat komt middelkerwies deurdat ien t Hoogelaands de typisch Grunnegse twaiklanken ” ai ” en ” ou ” hail veul veurkommen , bieveurbeeld ien ” kouk ” en ” stain ” .	12	”	”	PUNCT		1078	1078
+doc1	2	8	Dat komt middelkerwies deurdat ien t Hoogelaands de typisch Grunnegse twaiklanken ” ai ” en ” ou ” hail veul veurkommen , bieveurbeeld ien ” kouk ” en ” stain ” .	13	ai	ij	INTJ		1079	1080
+doc1	2	8	Dat komt middelkerwies deurdat ien t Hoogelaands de typisch Grunnegse twaiklanken ” ai ” en ” ou ” hail veul veurkommen , bieveurbeeld ien ” kouk ” en ” stain ” .	14	”	”	PUNCT		1081	1081
+doc1	2	8	Dat komt middelkerwies deurdat ien t Hoogelaands de typisch Grunnegse twaiklanken ” ai ” en ” ou ” hail veul veurkommen , bieveurbeeld ien ” kouk ” en ” stain ” .	15	en	en	CCONJ		1083	1084
+doc1	2	8	Dat komt middelkerwies deurdat ien t Hoogelaands de typisch Grunnegse twaiklanken ” ai ” en ” ou ” hail veul veurkommen , bieveurbeeld ien ” kouk ” en ” stain ” .	16	”	”	PUNCT		1086	1086
+doc1	2	8	Dat komt middelkerwies deurdat ien t Hoogelaands de typisch Grunnegse twaiklanken ” ai ” en ” ou ” hail veul veurkommen , bieveurbeeld ien ” kouk ” en ” stain ” .	17	ou	oe	ADV		1087	1088
+doc1	2	8	Dat komt middelkerwies deurdat ien t Hoogelaands de typisch Grunnegse twaiklanken ” ai ” en ” ou ” hail veul veurkommen , bieveurbeeld ien ” kouk ” en ” stain ” .	18	”	”	PUNCT		1089	1089
+doc1	2	8	Dat komt middelkerwies deurdat ien t Hoogelaands de typisch Grunnegse twaiklanken ” ai ” en ” ou ” hail veul veurkommen , bieveurbeeld ien ” kouk ” en ” stain ” .	19	hail	heel	ADJ		1091	1094
+doc1	2	8	Dat komt middelkerwies deurdat ien t Hoogelaands de typisch Grunnegse twaiklanken ” ai ” en ” ou ” hail veul veurkommen , bieveurbeeld ien ” kouk ” en ” stain ” .	20	veul	veel	ADV		1096	1099
+doc1	2	8	Dat komt middelkerwies deurdat ien t Hoogelaands de typisch Grunnegse twaiklanken ” ai ” en ” ou ” hail veul veurkommen , bieveurbeeld ien ” kouk ” en ” stain ” .	21	veurkommen	veurkom	VERB		1101	1110
+doc1	2	8	Dat komt middelkerwies deurdat ien t Hoogelaands de typisch Grunnegse twaiklanken ” ai ” en ” ou ” hail veul veurkommen , bieveurbeeld ien ” kouk ” en ” stain ” .	22	,	,	PUNCT	SpacesAfter=\s\s	1111	1111
+doc1	2	8	Dat komt middelkerwies deurdat ien t Hoogelaands de typisch Grunnegse twaiklanken ” ai ” en ” ou ” hail veul veurkommen , bieveurbeeld ien ” kouk ” en ” stain ” .	23	bieveurbeeld	bieveurbeeld	VERB		1113	1124
+doc1	2	8	Dat komt middelkerwies deurdat ien t Hoogelaands de typisch Grunnegse twaiklanken ” ai ” en ” ou ” hail veul veurkommen , bieveurbeeld ien ” kouk ” en ” stain ” .	24	ien	in	ADP		1126	1128
+doc1	2	8	Dat komt middelkerwies deurdat ien t Hoogelaands de typisch Grunnegse twaiklanken ” ai ” en ” ou ” hail veul veurkommen , bieveurbeeld ien ” kouk ” en ” stain ” .	25	”	”	PUNCT		1130	1130
+doc1	2	8	Dat komt middelkerwies deurdat ien t Hoogelaands de typisch Grunnegse twaiklanken ” ai ” en ” ou ” hail veul veurkommen , bieveurbeeld ien ” kouk ” en ” stain ” .	26	kouk	koek	NOUN		1131	1134
+doc1	2	8	Dat komt middelkerwies deurdat ien t Hoogelaands de typisch Grunnegse twaiklanken ” ai ” en ” ou ” hail veul veurkommen , bieveurbeeld ien ” kouk ” en ” stain ” .	27	”	”	PUNCT		1135	1135
+doc1	2	8	Dat komt middelkerwies deurdat ien t Hoogelaands de typisch Grunnegse twaiklanken ” ai ” en ” ou ” hail veul veurkommen , bieveurbeeld ien ” kouk ” en ” stain ” .	28	en	en	CCONJ		1137	1138
+doc1	2	8	Dat komt middelkerwies deurdat ien t Hoogelaands de typisch Grunnegse twaiklanken ” ai ” en ” ou ” hail veul veurkommen , bieveurbeeld ien ” kouk ” en ” stain ” .	29	”	”	PUNCT		1140	1140
+doc1	2	8	Dat komt middelkerwies deurdat ien t Hoogelaands de typisch Grunnegse twaiklanken ” ai ” en ” ou ” hail veul veurkommen , bieveurbeeld ien ” kouk ” en ” stain ” .	30	stain	steen	NOUN		1141	1145
+doc1	2	8	Dat komt middelkerwies deurdat ien t Hoogelaands de typisch Grunnegse twaiklanken ” ai ” en ” ou ” hail veul veurkommen , bieveurbeeld ien ” kouk ” en ” stain ” .	31	”	”	PUNCT		1146	1146
+doc1	2	8	Dat komt middelkerwies deurdat ien t Hoogelaands de typisch Grunnegse twaiklanken ” ai ” en ” ou ” hail veul veurkommen , bieveurbeeld ien ” kouk ” en ” stain ” .	32	.	.	PUNCT	SpacesAfter=\s\n	1147	1147
+doc1	2	9	Woorden dij ien t Veenkelonioals nait zo bruukt worden , worden dit ien t Hoogelaandsters voak wel .	1	Woorden	woord	NOUN		1150	1156
+doc1	2	9	Woorden dij ien t Veenkelonioals nait zo bruukt worden , worden dit ien t Hoogelaandsters voak wel .	2	dij	die	PRON		1158	1160
+doc1	2	9	Woorden dij ien t Veenkelonioals nait zo bruukt worden , worden dit ien t Hoogelaandsters voak wel .	3	ien	in	ADP		1162	1164
+doc1	2	9	Woorden dij ien t Veenkelonioals nait zo bruukt worden , worden dit ien t Hoogelaandsters voak wel .	4	t	het	DET		1166	1166
+doc1	2	9	Woorden dij ien t Veenkelonioals nait zo bruukt worden , worden dit ien t Hoogelaandsters voak wel .	5	Veenkelonioals	veenkelonioals	NOUN		1168	1181
+doc1	2	9	Woorden dij ien t Veenkelonioals nait zo bruukt worden , worden dit ien t Hoogelaandsters voak wel .	6	nait	niet	PART		1183	1186
+doc1	2	9	Woorden dij ien t Veenkelonioals nait zo bruukt worden , worden dit ien t Hoogelaandsters voak wel .	7	zo	zo	ADV		1188	1189
+doc1	2	9	Woorden dij ien t Veenkelonioals nait zo bruukt worden , worden dit ien t Hoogelaandsters voak wel .	8	bruukt	gebruikt	VERB		1191	1196
+doc1	2	9	Woorden dij ien t Veenkelonioals nait zo bruukt worden , worden dit ien t Hoogelaandsters voak wel .	9	worden	worden	AUX		1198	1203
+doc1	2	9	Woorden dij ien t Veenkelonioals nait zo bruukt worden , worden dit ien t Hoogelaandsters voak wel .	10	,	,	PUNCT	SpacesAfter=\s\s	1204	1204
+doc1	2	9	Woorden dij ien t Veenkelonioals nait zo bruukt worden , worden dit ien t Hoogelaandsters voak wel .	11	worden	worden	AUX		1206	1211
+doc1	2	9	Woorden dij ien t Veenkelonioals nait zo bruukt worden , worden dit ien t Hoogelaandsters voak wel .	12	dit	dit	PRON		1213	1215
+doc1	2	9	Woorden dij ien t Veenkelonioals nait zo bruukt worden , worden dit ien t Hoogelaandsters voak wel .	13	ien	in	ADP		1217	1219
+doc1	2	9	Woorden dij ien t Veenkelonioals nait zo bruukt worden , worden dit ien t Hoogelaandsters voak wel .	14	t	het	DET		1221	1221
+doc1	2	9	Woorden dij ien t Veenkelonioals nait zo bruukt worden , worden dit ien t Hoogelaandsters voak wel .	15	Hoogelaandsters	Hoogelaandster	NOUN		1223	1237
+doc1	2	9	Woorden dij ien t Veenkelonioals nait zo bruukt worden , worden dit ien t Hoogelaandsters voak wel .	16	voak	vaak	ADJ		1239	1242
+doc1	2	9	Woorden dij ien t Veenkelonioals nait zo bruukt worden , worden dit ien t Hoogelaandsters voak wel .	17	wel	wel	ADV		1244	1246
+doc1	2	9	Woorden dij ien t Veenkelonioals nait zo bruukt worden , worden dit ien t Hoogelaandsters voak wel .	18	.	.	PUNCT	SpacesAfter=\s\n	1247	1247
+doc1	2	10	Bieveurbeeld Veenkelonioalse woorden ” eeuw ” , ” vieren ” en ” moe ” binnen ien t Hoogelaandsters ” aiw ” , ” vaaiern ” of ” vijern ” en ” mou ( der ) ” .	1	Bieveurbeeld	Bieveurbeeld	DET		1250	1261
+doc1	2	10	Bieveurbeeld Veenkelonioalse woorden ” eeuw ” , ” vieren ” en ” moe ” binnen ien t Hoogelaandsters ” aiw ” , ” vaaiern ” of ” vijern ” en ” mou ( der ) ” .	2	Veenkelonioalse	Veenkelonioals	ADJ		1263	1277
+doc1	2	10	Bieveurbeeld Veenkelonioalse woorden ” eeuw ” , ” vieren ” en ” moe ” binnen ien t Hoogelaandsters ” aiw ” , ” vaaiern ” of ” vijern ” en ” mou ( der ) ” .	3	woorden	woord	NOUN		1279	1285
+doc1	2	10	Bieveurbeeld Veenkelonioalse woorden ” eeuw ” , ” vieren ” en ” moe ” binnen ien t Hoogelaandsters ” aiw ” , ” vaaiern ” of ” vijern ” en ” mou ( der ) ” .	4	”	”	PUNCT		1287	1287
+doc1	2	10	Bieveurbeeld Veenkelonioalse woorden ” eeuw ” , ” vieren ” en ” moe ” binnen ien t Hoogelaandsters ” aiw ” , ” vaaiern ” of ” vijern ” en ” mou ( der ) ” .	5	eeuw	eeuw	INTJ		1288	1291
+doc1	2	10	Bieveurbeeld Veenkelonioalse woorden ” eeuw ” , ” vieren ” en ” moe ” binnen ien t Hoogelaandsters ” aiw ” , ” vaaiern ” of ” vijern ” en ” mou ( der ) ” .	6	”	”	PUNCT		1292	1292
+doc1	2	10	Bieveurbeeld Veenkelonioalse woorden ” eeuw ” , ” vieren ” en ” moe ” binnen ien t Hoogelaandsters ” aiw ” , ” vaaiern ” of ” vijern ” en ” mou ( der ) ” .	7	,	,	PUNCT	SpacesAfter=\s\s	1293	1293
+doc1	2	10	Bieveurbeeld Veenkelonioalse woorden ” eeuw ” , ” vieren ” en ” moe ” binnen ien t Hoogelaandsters ” aiw ” , ” vaaiern ” of ” vijern ” en ” mou ( der ) ” .	8	”	”	PUNCT		1295	1295
+doc1	2	10	Bieveurbeeld Veenkelonioalse woorden ” eeuw ” , ” vieren ” en ” moe ” binnen ien t Hoogelaandsters ” aiw ” , ” vaaiern ” of ” vijern ” en ” mou ( der ) ” .	9	vieren	vier	VERB		1296	1301
+doc1	2	10	Bieveurbeeld Veenkelonioalse woorden ” eeuw ” , ” vieren ” en ” moe ” binnen ien t Hoogelaandsters ” aiw ” , ” vaaiern ” of ” vijern ” en ” mou ( der ) ” .	10	”	”	PUNCT		1302	1302
+doc1	2	10	Bieveurbeeld Veenkelonioalse woorden ” eeuw ” , ” vieren ” en ” moe ” binnen ien t Hoogelaandsters ” aiw ” , ” vaaiern ” of ” vijern ” en ” mou ( der ) ” .	11	en	en	CCONJ		1304	1305
+doc1	2	10	Bieveurbeeld Veenkelonioalse woorden ” eeuw ” , ” vieren ” en ” moe ” binnen ien t Hoogelaandsters ” aiw ” , ” vaaiern ” of ” vijern ” en ” mou ( der ) ” .	12	”	”	PUNCT		1307	1307
+doc1	2	10	Bieveurbeeld Veenkelonioalse woorden ” eeuw ” , ” vieren ” en ” moe ” binnen ien t Hoogelaandsters ” aiw ” , ” vaaiern ” of ” vijern ” en ” mou ( der ) ” .	13	moe	moe	ADJ		1308	1310
+doc1	2	10	Bieveurbeeld Veenkelonioalse woorden ” eeuw ” , ” vieren ” en ” moe ” binnen ien t Hoogelaandsters ” aiw ” , ” vaaiern ” of ” vijern ” en ” mou ( der ) ” .	14	”	”	PUNCT		1311	1311
+doc1	2	10	Bieveurbeeld Veenkelonioalse woorden ” eeuw ” , ” vieren ” en ” moe ” binnen ien t Hoogelaandsters ” aiw ” , ” vaaiern ” of ” vijern ” en ” mou ( der ) ” .	15	binnen	zijn	AUX		1313	1318
+doc1	2	10	Bieveurbeeld Veenkelonioalse woorden ” eeuw ” , ” vieren ” en ” moe ” binnen ien t Hoogelaandsters ” aiw ” , ” vaaiern ” of ” vijern ” en ” mou ( der ) ” .	16	ien	in	ADP		1320	1322
+doc1	2	10	Bieveurbeeld Veenkelonioalse woorden ” eeuw ” , ” vieren ” en ” moe ” binnen ien t Hoogelaandsters ” aiw ” , ” vaaiern ” of ” vijern ” en ” mou ( der ) ” .	17	t	het	DET		1324	1324
+doc1	2	10	Bieveurbeeld Veenkelonioalse woorden ” eeuw ” , ” vieren ” en ” moe ” binnen ien t Hoogelaandsters ” aiw ” , ” vaaiern ” of ” vijern ” en ” mou ( der ) ” .	18	Hoogelaandsters	Hoogelaandster	NOUN		1326	1340
+doc1	2	10	Bieveurbeeld Veenkelonioalse woorden ” eeuw ” , ” vieren ” en ” moe ” binnen ien t Hoogelaandsters ” aiw ” , ” vaaiern ” of ” vijern ” en ” mou ( der ) ” .	19	”	”	PUNCT		1342	1342
+doc1	2	10	Bieveurbeeld Veenkelonioalse woorden ” eeuw ” , ” vieren ” en ” moe ” binnen ien t Hoogelaandsters ” aiw ” , ” vaaiern ” of ” vijern ” en ” mou ( der ) ” .	20	aiw	aiw	INTJ		1343	1345
+doc1	2	10	Bieveurbeeld Veenkelonioalse woorden ” eeuw ” , ” vieren ” en ” moe ” binnen ien t Hoogelaandsters ” aiw ” , ” vaaiern ” of ” vijern ” en ” mou ( der ) ” .	21	”	”	PUNCT		1346	1346
+doc1	2	10	Bieveurbeeld Veenkelonioalse woorden ” eeuw ” , ” vieren ” en ” moe ” binnen ien t Hoogelaandsters ” aiw ” , ” vaaiern ” of ” vijern ” en ” mou ( der ) ” .	22	,	,	PUNCT	SpacesAfter=\s\s	1347	1347
+doc1	2	10	Bieveurbeeld Veenkelonioalse woorden ” eeuw ” , ” vieren ” en ” moe ” binnen ien t Hoogelaandsters ” aiw ” , ” vaaiern ” of ” vijern ” en ” mou ( der ) ” .	23	”	”	PUNCT		1349	1349
+doc1	2	10	Bieveurbeeld Veenkelonioalse woorden ” eeuw ” , ” vieren ” en ” moe ” binnen ien t Hoogelaandsters ” aiw ” , ” vaaiern ” of ” vijern ” en ” mou ( der ) ” .	24	vaaiern	vaaiern	ADJ		1350	1356
+doc1	2	10	Bieveurbeeld Veenkelonioalse woorden ” eeuw ” , ” vieren ” en ” moe ” binnen ien t Hoogelaandsters ” aiw ” , ” vaaiern ” of ” vijern ” en ” mou ( der ) ” .	25	”	”	PUNCT		1357	1357
+doc1	2	10	Bieveurbeeld Veenkelonioalse woorden ” eeuw ” , ” vieren ” en ” moe ” binnen ien t Hoogelaandsters ” aiw ” , ” vaaiern ” of ” vijern ” en ” mou ( der ) ” .	26	of	of	CCONJ		1359	1360
+doc1	2	10	Bieveurbeeld Veenkelonioalse woorden ” eeuw ” , ” vieren ” en ” moe ” binnen ien t Hoogelaandsters ” aiw ” , ” vaaiern ” of ” vijern ” en ” mou ( der ) ” .	27	”	”	PUNCT		1362	1362
+doc1	2	10	Bieveurbeeld Veenkelonioalse woorden ” eeuw ” , ” vieren ” en ” moe ” binnen ien t Hoogelaandsters ” aiw ” , ” vaaiern ” of ” vijern ” en ” mou ( der ) ” .	28	vijern	vijering	NOUN		1363	1368
+doc1	2	10	Bieveurbeeld Veenkelonioalse woorden ” eeuw ” , ” vieren ” en ” moe ” binnen ien t Hoogelaandsters ” aiw ” , ” vaaiern ” of ” vijern ” en ” mou ( der ) ” .	29	”	”	PUNCT		1369	1369
+doc1	2	10	Bieveurbeeld Veenkelonioalse woorden ” eeuw ” , ” vieren ” en ” moe ” binnen ien t Hoogelaandsters ” aiw ” , ” vaaiern ” of ” vijern ” en ” mou ( der ) ” .	30	en	en	CCONJ		1371	1372
+doc1	2	10	Bieveurbeeld Veenkelonioalse woorden ” eeuw ” , ” vieren ” en ” moe ” binnen ien t Hoogelaandsters ” aiw ” , ” vaaiern ” of ” vijern ” en ” mou ( der ) ” .	31	”	”	PUNCT		1374	1374
+doc1	2	10	Bieveurbeeld Veenkelonioalse woorden ” eeuw ” , ” vieren ” en ” moe ” binnen ien t Hoogelaandsters ” aiw ” , ” vaaiern ” of ” vijern ” en ” mou ( der ) ” .	32	mou	moe	NOUN		1375	1377
+doc1	2	10	Bieveurbeeld Veenkelonioalse woorden ” eeuw ” , ” vieren ” en ” moe ” binnen ien t Hoogelaandsters ” aiw ” , ” vaaiern ” of ” vijern ” en ” mou ( der ) ” .	33	(	(	PUNCT		1378	1378
+doc1	2	10	Bieveurbeeld Veenkelonioalse woorden ” eeuw ” , ” vieren ” en ” moe ” binnen ien t Hoogelaandsters ” aiw ” , ” vaaiern ” of ” vijern ” en ” mou ( der ) ” .	34	der	er	ADV		1379	1381
+doc1	2	10	Bieveurbeeld Veenkelonioalse woorden ” eeuw ” , ” vieren ” en ” moe ” binnen ien t Hoogelaandsters ” aiw ” , ” vaaiern ” of ” vijern ” en ” mou ( der ) ” .	35	)	)	PUNCT		1382	1382
+doc1	2	10	Bieveurbeeld Veenkelonioalse woorden ” eeuw ” , ” vieren ” en ” moe ” binnen ien t Hoogelaandsters ” aiw ” , ” vaaiern ” of ” vijern ” en ” mou ( der ) ” .	36	”	”	PUNCT		1383	1383
+doc1	2	10	Bieveurbeeld Veenkelonioalse woorden ” eeuw ” , ” vieren ” en ” moe ” binnen ien t Hoogelaandsters ” aiw ” , ” vaaiern ” of ” vijern ” en ” mou ( der ) ” .	37	.	.	PUNCT	SpacesAfter=\s\n	1384	1384
+doc1	2	11	Bie n enquête oet 1991 wuir deur maisten van ondervroagden t Hoogelaandsters aanwezen as t ” beste ” Grunnegs .	1	Bie	bij	ADP		1387	1389
+doc1	2	11	Bie n enquête oet 1991 wuir deur maisten van ondervroagden t Hoogelaandsters aanwezen as t ” beste ” Grunnegs .	2	n	een	DET		1391	1391
+doc1	2	11	Bie n enquête oet 1991 wuir deur maisten van ondervroagden t Hoogelaandsters aanwezen as t ” beste ” Grunnegs .	3	enquête	enquête	NOUN		1393	1399
+doc1	2	11	Bie n enquête oet 1991 wuir deur maisten van ondervroagden t Hoogelaandsters aanwezen as t ” beste ” Grunnegs .	4	oet	uit	ADP		1401	1403
+doc1	2	11	Bie n enquête oet 1991 wuir deur maisten van ondervroagden t Hoogelaandsters aanwezen as t ” beste ” Grunnegs .	5	1991	1991	NUM		1405	1408
+doc1	2	11	Bie n enquête oet 1991 wuir deur maisten van ondervroagden t Hoogelaandsters aanwezen as t ” beste ” Grunnegs .	6	wuir	worden	AUX		1410	1413
+doc1	2	11	Bie n enquête oet 1991 wuir deur maisten van ondervroagden t Hoogelaandsters aanwezen as t ” beste ” Grunnegs .	7	deur	door	ADP		1415	1418
+doc1	2	11	Bie n enquête oet 1991 wuir deur maisten van ondervroagden t Hoogelaandsters aanwezen as t ” beste ” Grunnegs .	8	maisten	maisten	NOUN		1420	1426
+doc1	2	11	Bie n enquête oet 1991 wuir deur maisten van ondervroagden t Hoogelaandsters aanwezen as t ” beste ” Grunnegs .	9	van	van	ADP		1428	1430
+doc1	2	11	Bie n enquête oet 1991 wuir deur maisten van ondervroagden t Hoogelaandsters aanwezen as t ” beste ” Grunnegs .	10	ondervroagden	ondervroaggen	VERB		1432	1444
+doc1	2	11	Bie n enquête oet 1991 wuir deur maisten van ondervroagden t Hoogelaandsters aanwezen as t ” beste ” Grunnegs .	11	t	het	DET		1446	1446
+doc1	2	11	Bie n enquête oet 1991 wuir deur maisten van ondervroagden t Hoogelaandsters aanwezen as t ” beste ” Grunnegs .	12	Hoogelaandsters	Hoogelaandster	NOUN		1448	1462
+doc1	2	11	Bie n enquête oet 1991 wuir deur maisten van ondervroagden t Hoogelaandsters aanwezen as t ” beste ” Grunnegs .	13	aanwezen	aanwezen	VERB		1464	1471
+doc1	2	11	Bie n enquête oet 1991 wuir deur maisten van ondervroagden t Hoogelaandsters aanwezen as t ” beste ” Grunnegs .	14	as	als	SCONJ		1473	1474
+doc1	2	11	Bie n enquête oet 1991 wuir deur maisten van ondervroagden t Hoogelaandsters aanwezen as t ” beste ” Grunnegs .	15	t	het	DET		1476	1476
+doc1	2	11	Bie n enquête oet 1991 wuir deur maisten van ondervroagden t Hoogelaandsters aanwezen as t ” beste ” Grunnegs .	16	”	”	PUNCT		1478	1478
+doc1	2	11	Bie n enquête oet 1991 wuir deur maisten van ondervroagden t Hoogelaandsters aanwezen as t ” beste ” Grunnegs .	17	beste	goed	ADJ		1479	1483
+doc1	2	11	Bie n enquête oet 1991 wuir deur maisten van ondervroagden t Hoogelaandsters aanwezen as t ” beste ” Grunnegs .	18	”	”	PUNCT		1484	1484
+doc1	2	11	Bie n enquête oet 1991 wuir deur maisten van ondervroagden t Hoogelaandsters aanwezen as t ” beste ” Grunnegs .	19	Grunnegs	Gronings	PROPN		1486	1493
+doc1	2	11	Bie n enquête oet 1991 wuir deur maisten van ondervroagden t Hoogelaandsters aanwezen as t ” beste ” Grunnegs .	20	.	.	PUNCT	SpacesAfter=\s\n	1494	1494

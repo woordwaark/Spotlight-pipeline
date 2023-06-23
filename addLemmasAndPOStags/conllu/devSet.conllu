@@ -1,0 +1,458 @@
+# newdoc id = Wikipedia1
+# sent_id = 176
+# text = Obwool de weerde en authensiteit van zin waark deur verscheidene taolkundegen betwievelt wodt , priest Heeroma hum in t bouk an as n weerdege literère schriever dei t Westerwoolds wizzelk wol goud beheerst hebben zol .
+1	Obwool	Obwool	ADP	_	_	_	_	_	_
+2	de	de	DET	_	_	_	_	_	_
+3	weerde	waarde	NOUN	_	_	_	_	_	_
+4	en	en	CCONJ	_	_	_	_	_	_
+5	authensiteit	authensiteit	NOUN	_	_	_	_	_	_
+6	van	van	ADP	_	_	_	_	_	_
+7	zin	zin	NOUN	_	_	_	_	_	_
+8	waark	werk	NOUN	_	_	_	_	_	_
+9	deur	door	ADP	_	_	_	_	_	_
+10	verscheidene	verscheidjn	ADJ	_	_	_	_	_	_
+11	taolkundegen	taolkundeg	NOUN	_	_	_	_	_	_
+12	betwievelt	betwievellen	VERB	_	_	_	_	_	_
+13	wodt	woden	VERB	_	_	_	_	_	_
+14	,	,	PUNCT	_	_	_	_	_	SpacesAfter=\s\s
+15	priest	priest	VERB	_	_	_	_	_	_
+16	Heeroma	Heeroma	PROPN	_	_	_	_	_	_
+17	hum	hum	NOUN	_	_	_	_	_	_
+18	in	in	ADP	_	_	_	_	_	_
+19	t	het	DET	_	_	_	_	_	_
+20	bouk	boek	NOUN	_	_	_	_	_	_
+21	an	an	ADP	_	_	_	_	_	_
+22	as	als	SCONJ	_	_	_	_	_	_
+23	n	een	DET	_	_	_	_	_	_
+24	weerdege	weerder	NOUN	_	_	_	_	_	_
+25	literère	literèr	ADJ	_	_	_	_	_	_
+26	schriever	schrijver	NOUN	_	_	_	_	_	_
+27	dei	deien	VERB	_	_	_	_	_	_
+28	t	het	PRON	_	_	_	_	_	_
+29	Westerwoolds	Westerwoold	ADV	_	_	_	_	_	_
+30	wizzelk	wisselijk	ADJ	_	_	_	_	_	_
+31	wol	willen	VERB	_	_	_	_	_	_
+32	goud	goed	ADJ	_	_	_	_	_	_
+33	beheerst	beheerst	VERB	_	_	_	_	_	_
+34	hebben	hebben	VERB	_	_	_	_	_	_
+35	zol	zullen	AUX	_	_	_	_	_	_
+36	.	.	PUNCT	_	_	_	_	_	SpacesAfter=\n
+
+# sent_id = 146
+# text = t Westerwoolds is ein van de subdialekten van t Grönnegs en wodt up Westerwoolde snakt .
+1	t	het	PRON	_	_	_	_	_	_
+2	Westerwoolds	Westerwoolds	VERB	_	_	_	_	_	_
+3	is	zijn	AUX	_	_	_	_	_	_
+4	ein	ein	NOUN	_	_	_	_	_	_
+5	van	van	ADP	_	_	_	_	_	_
+6	de	de	DET	_	_	_	_	_	_
+7	subdialekten	subdialekten	NOUN	_	_	_	_	_	_
+8	van	van	ADP	_	_	_	_	_	_
+9	t	het	DET	_	_	_	_	_	_
+10	Grönnegs	Grönnegs	PROPN	_	_	_	_	_	_
+11	en	en	CCONJ	_	_	_	_	_	_
+12	wodt	woden	VERB	_	_	_	_	_	_
+13	up	up	ADP	_	_	_	_	_	_
+14	Westerwoolde	Westerwooud	PROPN	_	_	_	_	_	_
+15	snakt	snakken	VERB	_	_	_	_	_	_
+16	.	.	PUNCT	_	_	_	_	_	SpacesAfter=\n
+
+# newdoc id = Wikipedia4
+# sent_id = 74
+# text = Ien de lèste 150 joar binnen de dialekten aal dichter noar mekoar tougruid .
+1	Ien	in	ADP	_	_	_	_	_	_
+2	de	de	DET	_	_	_	_	_	_
+3	lèste	lè	NOUN	_	_	_	_	_	_
+4	150	150	NUM	_	_	_	_	_	_
+5	joar	jaar	NOUN	_	_	_	_	_	_
+6	binnen	zijn	AUX	_	_	_	_	_	_
+7	de	de	DET	_	_	_	_	_	_
+8	dialekten	dialekten	NOUN	_	_	_	_	_	_
+9	aal	al	ADV	_	_	_	_	_	_
+10	dichter	dicht	ADJ	_	_	_	_	_	_
+11	noar	naar	ADP	_	_	_	_	_	_
+12	mekoar	elkaar	PRON	_	_	_	_	_	_
+13	tougruid	tougroeien	VERB	_	_	_	_	_	_
+14	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = 60
+# text = Doarnoast binnen der ook woorden dij van wiedere òfkomst binnen , noamelk Latainse .
+1	Doarnoast	daarnaast	ADV	_	_	_	_	_	_
+2	binnen	zijn	AUX	_	_	_	_	_	_
+3	der	er	ADV	_	_	_	_	_	_
+4	ook	ook	ADV	_	_	_	_	_	_
+5	woorden	wooren	NOUN	_	_	_	_	_	_
+6	dij	die	PRON	_	_	_	_	_	_
+7	van	van	ADP	_	_	_	_	_	_
+8	wiedere	wiedere	ADJ	_	_	_	_	_	_
+9	òfkomst	òfkomst	NOUN	_	_	_	_	_	_
+10	binnen	zijn	AUX	_	_	_	_	_	_
+11	,	,	PUNCT	_	_	_	_	_	SpacesAfter=\s\s
+12	noamelk	namelijk	ADV	_	_	_	_	_	_
+13	Latainse	Latains	PROPN	_	_	_	_	_	_
+14	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = 77
+# text = Wikipedia , de vrije encyclopedie , B. Dijkstra , and others , 2023 , Westlaauwers Frais , Wikipedia Q27175
+1	Wikipedia	Wikipedia	INTJ	_	_	_	_	_	_
+2	,	,	PUNCT	_	_	_	_	_	SpacesAfter=\s\s
+3	de	de	DET	_	_	_	_	_	_
+4	vrije	vrij	ADJ	_	_	_	_	_	_
+5	encyclopedie	encyclopeetje	NOUN	_	_	_	_	_	_
+6	,	,	PUNCT	_	_	_	_	_	SpacesAfter=\s\s
+7	B.	B	PROPN	_	_	_	_	_	_
+8	Dijkstra	Dijkstra	PROPN	_	_	_	_	_	_
+9	,	,	PUNCT	_	_	_	_	_	SpacesAfter=\s\s
+10	and	and	ADV	_	_	_	_	_	_
+11	others	other	NOUN	_	_	_	_	_	_
+12	,	,	PUNCT	_	_	_	_	_	SpacesAfter=\s\s
+13	2023	2023	NUM	_	_	_	_	_	_
+14	,	,	PUNCT	_	_	_	_	_	SpacesAfter=\s\s
+15	Westlaauwers	Westlaauwer	PROPN	_	_	_	_	_	_
+16	Frais	Frais	PROPN	_	_	_	_	_	_
+17	,	,	PUNCT	_	_	_	_	_	SpacesAfter=\s\s
+18	Wikipedia	Wikipedia	PROPN	_	_	_	_	_	_
+19	Q27175	Q27175	NUM	_	_	_	_	_	SpacesAfter=\s\n\n
+
+# newdoc id = Wikipedia3
+# sent_id = 55
+# text = Ook kent t Westerkertaaiers veul toonhoogteverschillen dij typisch binnen veur t Frais , mòr nait veur de aander Grunnegse dialekten .
+1	Ook	ook	ADV	_	_	_	_	_	_
+2	kent	kunnen	VERB	_	_	_	_	_	_
+3	t	het	PRON	_	_	_	_	_	_
+4	Westerkertaaiers	Westerkertaaiers	ADV	_	_	_	_	_	_
+5	veul	veel	PRON	_	_	_	_	_	_
+6	toonhoogteverschillen	toonhoogteverschilling	NOUN	_	_	_	_	_	_
+7	dij	die	DET	_	_	_	_	_	_
+8	typisch	typisch	NOUN	_	_	_	_	_	_
+9	binnen	zijn	AUX	_	_	_	_	_	_
+10	veur	voor	ADP	_	_	_	_	_	_
+11	t	het	DET	_	_	_	_	_	_
+12	Frais	Frais	PROPN	_	_	_	_	_	_
+13	,	,	PUNCT	_	_	_	_	_	SpacesAfter=\s\s
+14	mòr	mòr	ADV	_	_	_	_	_	_
+15	nait	niet	PART	_	_	_	_	_	_
+16	veur	voor	ADP	_	_	_	_	_	_
+17	de	de	DET	_	_	_	_	_	_
+18	aander	ander	ADJ	_	_	_	_	_	SpacesAfter=\n
+19	Grunnegse	Gronings	NOUN	_	_	_	_	_	_
+20	dialekten	dialekten	VERB	_	_	_	_	_	_
+21	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = 132
+# text = Ain van lèste oetzönderns doarop waren de statuten veur verainen , moar sunt 2002 kinnen dij ook in Frais opsteld worden .
+1	Ain	een	NUM	_	_	_	_	_	_
+2	van	van	ADP	_	_	_	_	_	_
+3	lèste	lè	ADJ	_	_	_	_	_	_
+4	oetzönderns	oetzönderns	NOUN	_	_	_	_	_	_
+5	doarop	daarop	ADV	_	_	_	_	_	_
+6	waren	zijn	AUX	_	_	_	_	_	_
+7	de	de	DET	_	_	_	_	_	_
+8	statuten	statuten	NOUN	_	_	_	_	_	_
+9	veur	voor	ADP	_	_	_	_	_	_
+10	verainen	verienen	NOUN	_	_	_	_	_	_
+11	,	,	PUNCT	_	_	_	_	_	SpacesAfter=\s\s
+12	moar	maar	CCONJ	_	_	_	_	_	_
+13	sunt	sinds	ADP	_	_	_	_	_	_
+14	2002	2002	NUM	_	_	_	_	_	_
+15	kinnen	kunnen	AUX	_	_	_	_	_	_
+16	dij	die	PRON	_	_	_	_	_	_
+17	ook	ook	ADV	_	_	_	_	_	_
+18	in	in	ADP	_	_	_	_	_	_
+19	Frais	Frais	PROPN	_	_	_	_	_	_
+20	opsteld	opstellen	VERB	_	_	_	_	_	_
+21	worden	worden	AUX	_	_	_	_	_	_
+22	.	.	PUNCT	_	_	_	_	_	SpacesAfter=\s\n
+
+# sent_id = 35
+# text = Tot aan de Twijde Wereldkraig tou was de reloatsie tuzzen Grunnen en Oostfraislaand hail goud .
+1	Tot	tot	ADP	_	_	_	_	_	_
+2	aan	aan	ADP	_	_	_	_	_	_
+3	de	de	DET	_	_	_	_	_	_
+4	Twijde	twee	PROPN	_	_	_	_	_	_
+5	Wereldkraig	Wereldkriegen	PROPN	_	_	_	_	_	_
+6	tou	toen	ADP	_	_	_	_	_	_
+7	was	zijn	AUX	_	_	_	_	_	_
+8	de	de	DET	_	_	_	_	_	_
+9	reloatsie	reloatsie	NOUN	_	_	_	_	_	_
+10	tuzzen	tussen	ADP	_	_	_	_	_	_
+11	Grunnen	Groningen	PROPN	_	_	_	_	_	_
+12	en	en	CCONJ	_	_	_	_	_	_
+13	Oostfraislaand	Oostfraisland	PROPN	_	_	_	_	_	_
+14	hail	helemaal	ADJ	_	_	_	_	_	_
+15	goud	goed	ADJ	_	_	_	_	_	_
+16	.	.	PUNCT	_	_	_	_	_	SpacesAfter=\s\n
+
+# sent_id = 75
+# text = De ainhaid van de noar mekoar tougruide dialekten nuimt man n regiolekt .
+1	De	de	DET	_	_	_	_	_	_
+2	ainhaid	ainhaid	NOUN	_	_	_	_	_	_
+3	van	van	ADP	_	_	_	_	_	_
+4	de	de	DET	_	_	_	_	_	_
+5	noar	naar	ADP	_	_	_	_	_	_
+6	mekoar	elkaar	PRON	_	_	_	_	_	_
+7	tougruide	tegetougroet	VERB	_	_	_	_	_	_
+8	dialekten	dialekten	NOUN	_	_	_	_	_	_
+9	nuimt	noemen	VERB	_	_	_	_	_	_
+10	man	man	NOUN	_	_	_	_	_	_
+11	n	een	DET	_	_	_	_	_	_
+12	regiolekt	regiolekken	NOUN	_	_	_	_	_	_
+13	.	.	PUNCT	_	_	_	_	_	SpacesAfter=\n
+
+# sent_id = 137
+# text = De steden Delfziel en t Daam , dij t aan t noordelke zied van t Damsterdaip liggen ( opt Hoogelaand dus ) , heuren toalkundeg bie t Oldambtster dialektgebied .
+1	De	de	DET	_	_	_	_	_	_
+2	steden	stad	NOUN	_	_	_	_	_	_
+3	Delfziel	nelfzier	PROPN	_	_	_	_	_	_
+4	en	en	CCONJ	_	_	_	_	_	_
+5	t	het	DET	_	_	_	_	_	_
+6	Daam	Daam	PROPN	_	_	_	_	_	_
+7	,	,	PUNCT	_	_	_	_	_	SpacesAfter=\s\s
+8	dij	die	PRON	_	_	_	_	_	_
+9	t	het	PRON	_	_	_	_	_	_
+10	aan	aan	ADP	_	_	_	_	_	_
+11	t	het	DET	_	_	_	_	_	_
+12	noordelke	noordelijk	ADJ	_	_	_	_	_	_
+13	zied	zij	NOUN	_	_	_	_	_	_
+14	van	van	ADP	_	_	_	_	_	_
+15	t	het	DET	_	_	_	_	_	_
+16	Damsterdaip	Damsterdiep	PROPN	_	_	_	_	_	_
+17	liggen	liggen	VERB	_	_	_	_	_	SpacesAfter=\s\s
+18	(	(	PUNCT	_	_	_	_	_	_
+19	opt	oppen	VERB	_	_	_	_	_	_
+20	Hoogelaand	Hoogeland	PROPN	_	_	_	_	_	_
+21	dus	dus	ADV	_	_	_	_	_	_
+22	)	)	PUNCT	_	_	_	_	_	SpacesAfter=\s\s
+23	,	,	PUNCT	_	_	_	_	_	SpacesAfter=\s\s
+24	heuren	horen	VERB	_	_	_	_	_	_
+25	toalkundeg	toalkundig	ADV	_	_	_	_	_	_
+26	bie	bij	ADP	_	_	_	_	_	_
+27	t	het	DET	_	_	_	_	_	_
+28	Oldambtster	Oldambtster	PROPN	_	_	_	_	_	_
+29	dialektgebied	dialektgebied	ADV	_	_	_	_	_	_
+30	.	.	PUNCT	_	_	_	_	_	SpacesAfter=\s\n
+
+# sent_id = 183
+# text = t Westerwoolds is sunt de ontginnen van de veengebieden veur t grootste gedeilte saomensmelt mit de umringen dialekten , mit naome t Veenkeloniaols .
+1	t	het	PRON	_	_	_	_	_	_
+2	Westerwoolds	Westerwoolds	VERB	_	_	_	_	_	_
+3	is	zijn	AUX	_	_	_	_	_	_
+4	sunt	sinds	ADP	_	_	_	_	_	_
+5	de	de	DET	_	_	_	_	_	_
+6	ontginnen	ontginnen	NOUN	_	_	_	_	_	_
+7	van	van	ADP	_	_	_	_	_	_
+8	de	de	DET	_	_	_	_	_	_
+9	veengebieden	veengebieden	NOUN	_	_	_	_	_	_
+10	veur	voor	ADP	_	_	_	_	_	_
+11	t	het	DET	_	_	_	_	_	_
+12	grootste	groot	ADJ	_	_	_	_	_	_
+13	gedeilte	gedeilte	NOUN	_	_	_	_	_	_
+14	saomensmelt	saomensmelen	VERB	_	_	_	_	_	_
+15	mit	met	ADP	_	_	_	_	_	_
+16	de	de	DET	_	_	_	_	_	_
+17	umringen	umring	NOUN	_	_	_	_	_	_
+18	dialekten	dialekten	VERB	_	_	_	_	_	_
+19	,	,	PUNCT	_	_	_	_	_	SpacesAfter=\s\s
+20	mit	met	ADP	_	_	_	_	_	_
+21	naome	naom	NOUN	_	_	_	_	_	_
+22	t	het	PRON	_	_	_	_	_	_
+23	Veenkeloniaols	Veenkeloniaols	PROPN	_	_	_	_	_	_
+24	.	.	PUNCT	_	_	_	_	_	SpacesAfter=\n
+
+# sent_id = 13
+# text = Om en bie de lougen Moarum , De Wilp en De Penne wordt noast t Grunnegs ook Frais proat .
+1	Om	om	ADP	_	_	_	_	_	_
+2	en	en	CCONJ	_	_	_	_	_	_
+3	bie	nabij	ADP	_	_	_	_	_	_
+4	de	de	DET	_	_	_	_	_	_
+5	lougen	louigen	NOUN	_	_	_	_	_	_
+6	Moarum	Moarum	PROPN	_	_	_	_	_	_
+7	,	,	PUNCT	_	_	_	_	_	SpacesAfter=\s\s
+8	De	de	DET	_	_	_	_	_	_
+9	Wilp	Wilp	NOUN	_	_	_	_	_	_
+10	en	en	CCONJ	_	_	_	_	_	_
+11	De	de	DET	_	_	_	_	_	_
+12	Penne	Penne	NOUN	_	_	_	_	_	_
+13	wordt	worden	AUX	_	_	_	_	_	_
+14	noast	naast	ADP	_	_	_	_	_	_
+15	t	het	DET	_	_	_	_	_	_
+16	Grunnegs	Gronings	PROPN	_	_	_	_	_	_
+17	ook	ook	ADV	_	_	_	_	_	_
+18	Frais	Frais	PROPN	_	_	_	_	_	_
+19	proat	spreken	VERB	_	_	_	_	_	_
+20	.	.	PUNCT	_	_	_	_	_	SpacesAfter=\s\n
+
+# sent_id = 95
+# text = Van de sikkom 630.000 inwoner van de provìnzie Fraislaand kin 94 % Frais verstoan , 74 % Frais proaten , 65 % Frais lezen en 17 % Frais schrieven .
+1	Van	van	ADP	_	_	_	_	_	_
+2	de	de	DET	_	_	_	_	_	_
+3	sikkom	bijna	ADV	_	_	_	_	_	_
+4	630.000	630.000	NUM	_	_	_	_	_	_
+5	inwoner	inwoder	NOUN	_	_	_	_	_	_
+6	van	van	ADP	_	_	_	_	_	_
+7	de	de	DET	_	_	_	_	_	_
+8	provìnzie	provìnzie	NOUN	_	_	_	_	_	_
+9	Fraislaand	Fraisland	PROPN	_	_	_	_	_	_
+10	kin	kunnen	AUX	_	_	_	_	_	_
+11	94	94	NUM	_	_	_	_	_	_
+12	%	%	PUNCT	_	_	_	_	_	SpacesAfter=\s\s
+13	Frais	Frais	PROPN	_	_	_	_	_	_
+14	verstoan	verstaan	VERB	_	_	_	_	_	_
+15	,	,	PUNCT	_	_	_	_	_	SpacesAfter=\s\s
+16	74	74	NUM	_	_	_	_	_	_
+17	%	%	PUNCT	_	_	_	_	_	SpacesAfter=\s\s
+18	Frais	Frais	PROPN	_	_	_	_	_	_
+19	proaten	spreken	VERB	_	_	_	_	_	_
+20	,	,	PUNCT	_	_	_	_	_	SpacesAfter=\s\s
+21	65	65	NUM	_	_	_	_	_	_
+22	%	%	PUNCT	_	_	_	_	_	SpacesAfter=\s\s
+23	Frais	Frais	PROPN	_	_	_	_	_	_
+24	lezen	lezen	VERB	_	_	_	_	_	_
+25	en	en	CCONJ	_	_	_	_	_	_
+26	17	17	NUM	_	_	_	_	_	_
+27	%	%	PUNCT	_	_	_	_	_	SpacesAfter=\s\s
+28	Frais	Frais	PROPN	_	_	_	_	_	_
+29	schrieven	schrijven	VERB	_	_	_	_	_	_
+30	.	.	PUNCT	_	_	_	_	_	SpacesAfter=\n
+
+# sent_id = 134
+# text = Wikipedia , de vrije encyclopedie , B. Dijkstra , and others , 2023 , Hoogelaandsters , Wikipedia Q2484953
+1	Wikipedia	Wikipedia	INTJ	_	_	_	_	_	_
+2	,	,	PUNCT	_	_	_	_	_	SpacesAfter=\s\s
+3	de	de	DET	_	_	_	_	_	_
+4	vrije	vrij	ADJ	_	_	_	_	_	_
+5	encyclopedie	encyclopeetje	NOUN	_	_	_	_	_	_
+6	,	,	PUNCT	_	_	_	_	_	SpacesAfter=\s\s
+7	B.	B	PROPN	_	_	_	_	_	_
+8	Dijkstra	Dijkstra	PROPN	_	_	_	_	_	_
+9	,	,	PUNCT	_	_	_	_	_	SpacesAfter=\s\s
+10	and	and	ADV	_	_	_	_	_	_
+11	others	other	NOUN	_	_	_	_	_	_
+12	,	,	PUNCT	_	_	_	_	_	SpacesAfter=\s\s
+13	2023	2023	NUM	_	_	_	_	_	_
+14	,	,	PUNCT	_	_	_	_	_	SpacesAfter=\s\s
+15	Hoogelaandsters	Hoogelaandster	PROPN	_	_	_	_	_	_
+16	,	,	PUNCT	_	_	_	_	_	SpacesAfter=\s\s
+17	Wikipedia	Wikipedia	PROPN	_	_	_	_	_	_
+18	Q2484953	Q248495	NUM	_	_	_	_	_	SpacesAfter=\n\n
+
+# sent_id = 41
+# text = Ien t Oostfrais is t liek aansom .
+1	Ien	in	ADP	_	_	_	_	_	_
+2	t	het	DET	_	_	_	_	_	_
+3	Oostfrais	Oostfrais	NOUN	_	_	_	_	_	_
+4	is	zijn	AUX	_	_	_	_	_	_
+5	t	het	PRON	_	_	_	_	_	_
+6	liek	bijna	ADV	_	_	_	_	_	_
+7	aansom	andersom	ADV	_	_	_	_	_	_
+8	.	.	PUNCT	_	_	_	_	_	SpacesAfter=\s\n
+
+# sent_id = 54
+# text = Veurbeelden hiervan binnen mem ( moeke / mouder ) , leit ( ligt ) en jem ( joe ) .
+1	Veurbeelden	veurbeeuden	NOUN	_	_	_	_	_	_
+2	hiervan	hier	ADV	_	_	_	_	_	_
+3	binnen	binnen	AUX	_	_	_	_	_	_
+4	mem	mem	NOUN	_	_	_	_	_	SpacesAfter=\s\s
+5	(	(	PUNCT	_	_	_	_	_	_
+6	moeke	moeder	NOUN	_	_	_	_	_	_
+7	/	/	PUNCT	_	_	_	_	_	_
+8	mouder	moeder	NOUN	_	_	_	_	_	_
+9	)	)	PUNCT	_	_	_	_	_	SpacesAfter=\s\s
+10	,	,	PUNCT	_	_	_	_	_	SpacesAfter=\s\s
+11	leit	leit	VERB	_	_	_	_	_	SpacesAfter=\s\s
+12	(	(	PUNCT	_	_	_	_	_	_
+13	ligt	liggen	VERB	_	_	_	_	_	_
+14	)	)	PUNCT	_	_	_	_	_	SpacesAfter=\s\s
+15	en	en	CCONJ	_	_	_	_	_	_
+16	jem	jem	NOUN	_	_	_	_	_	SpacesAfter=\s\s
+17	(	(	PUNCT	_	_	_	_	_	_
+18	joe	jij	PRON	_	_	_	_	_	_
+19	)	)	PUNCT	_	_	_	_	_	_
+20	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = 111
+# text = De letters ” v ” , ” z ” en ” ch ” kommen noeit aan begun van woord en letter ” g ” noeit aan ìnd van n woord .
+1	De	de	DET	_	_	_	_	_	_
+2	letters	letter	NOUN	_	_	_	_	_	_
+3	”	”	PUNCT	_	_	_	_	_	_
+4	v	v	PROPN	_	_	_	_	_	_
+5	”	”	PUNCT	_	_	_	_	_	_
+6	,	,	PUNCT	_	_	_	_	_	SpacesAfter=\s\s
+7	”	”	PUNCT	_	_	_	_	_	_
+8	z	ze	PRON	_	_	_	_	_	_
+9	”	”	PUNCT	_	_	_	_	_	_
+10	en	en	CCONJ	_	_	_	_	_	_
+11	”	”	PUNCT	_	_	_	_	_	_
+12	ch	ch	INTJ	_	_	_	_	_	_
+13	”	”	PUNCT	_	_	_	_	_	_
+14	kommen	komen	VERB	_	_	_	_	_	_
+15	noeit	noeit	ADV	_	_	_	_	_	_
+16	aan	aan	ADP	_	_	_	_	_	_
+17	begun	begin	NOUN	_	_	_	_	_	_
+18	van	van	ADP	_	_	_	_	_	_
+19	woord	woord	NOUN	_	_	_	_	_	_
+20	en	en	CCONJ	_	_	_	_	_	_
+21	letter	letter	NOUN	_	_	_	_	_	_
+22	”	”	PUNCT	_	_	_	_	_	_
+23	g	g	ADJ	_	_	_	_	_	_
+24	”	”	PUNCT	_	_	_	_	_	_
+25	noeit	noeit	PART	_	_	_	_	_	_
+26	aan	aan	ADP	_	_	_	_	_	_
+27	ìnd	ìnd	NOUN	_	_	_	_	_	_
+28	van	van	ADP	_	_	_	_	_	_
+29	n	een	DET	_	_	_	_	_	_
+30	woord	woord	NOUN	_	_	_	_	_	_
+31	.	.	PUNCT	_	_	_	_	_	SpacesAfter=\s\n
+
+# sent_id = 63
+# text = Over t aalgemain kin man zèggen dat de dialekten ongeveer overainkommen mit de olle politieke grìnzen binnen de provìnzie .
+1	Over	over	ADP	_	_	_	_	_	_
+2	t	het	DET	_	_	_	_	_	_
+3	aalgemain	aalgemeen	NOUN	_	_	_	_	_	_
+4	kin	kunnen	AUX	_	_	_	_	_	_
+5	man	man	PRON	_	_	_	_	_	_
+6	zèggen	zèggen	VERB	_	_	_	_	_	_
+7	dat	dat	SCONJ	_	_	_	_	_	_
+8	de	de	DET	_	_	_	_	_	_
+9	dialekten	dialekten	NOUN	_	_	_	_	_	_
+10	ongeveer	ongeveer	ADV	_	_	_	_	_	_
+11	overainkommen	overainkomen	VERB	_	_	_	_	_	_
+12	mit	met	ADP	_	_	_	_	_	_
+13	de	de	DET	_	_	_	_	_	_
+14	olle	oud	ADJ	_	_	_	_	_	_
+15	politieke	politijk	NOUN	_	_	_	_	_	_
+16	grìnzen	grìns	VERB	_	_	_	_	_	_
+17	binnen	zijn	AUX	_	_	_	_	_	_
+18	de	de	DET	_	_	_	_	_	_
+19	provìnzie	provìnzie	NOUN	_	_	_	_	_	_
+20	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = 34
+# text = Toch binnen der nog wel dusdoaneg veul Nederlaandse worden over ien t Oostfrais dat de Oostfraizen deur aander Duutsers sums zulfs haalve Nederlaanders nuimd worden .
+1	Toch	toch	ADV	_	_	_	_	_	_
+2	binnen	zijn	AUX	_	_	_	_	_	_
+3	der	er	ADV	_	_	_	_	_	_
+4	nog	nog	ADV	_	_	_	_	_	_
+5	wel	wel	ADV	_	_	_	_	_	_
+6	dusdoaneg	dusdoanig	ADJ	_	_	_	_	_	_
+7	veul	veel	ADV	_	_	_	_	_	_
+8	Nederlaandse	Nederlaands	ADJ	_	_	_	_	_	_
+9	worden	worden	AUX	_	_	_	_	_	_
+10	over	over	ADP	_	_	_	_	_	_
+11	ien	in	ADP	_	_	_	_	_	_
+12	t	het	DET	_	_	_	_	_	_
+13	Oostfrais	Oostfrais	NOUN	_	_	_	_	_	_
+14	dat	dat	SCONJ	_	_	_	_	_	_
+15	de	de	DET	_	_	_	_	_	_
+16	Oostfraizen	Oostfraizen	NOUN	_	_	_	_	_	_
+17	deur	door	ADP	_	_	_	_	_	_
+18	aander	andere	ADJ	_	_	_	_	_	_
+19	Duutsers	Duitser	NOUN	_	_	_	_	_	_
+20	sums	soms	ADV	_	_	_	_	_	_
+21	zulfs	zelfs	ADV	_	_	_	_	_	_
+22	haalve	half	ADJ	_	_	_	_	_	_
+23	Nederlaanders	nederlander	PROPN	_	_	_	_	_	_
+24	nuimd	noemen	VERB	_	_	_	_	_	_
+25	worden	worden	AUX	_	_	_	_	_	_
+26	.	.	PUNCT	_	_	_	_	_	SpacesAfter=\s\n
+
