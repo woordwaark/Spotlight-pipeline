@@ -1,0 +1,16 @@
+Raw text
+
+f1Words f1Sents    UPOS   Lemma 
+   99.9    93.1    85.2    85.4 
+
+f1Words f1Sents    UPOS   Lemma 
+   0.15    6.78    1.89    2.39 
+
+
+Gold tok
+
+ UPOS Lemma 
+ 85.3  85.6 
+
+ UPOS Lemma 
+ 1.80  2.38 
