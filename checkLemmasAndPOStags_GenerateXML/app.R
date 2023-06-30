@@ -139,10 +139,9 @@ ui <- tagList(
 
           splitLayout(
             style = "border: 1px inherit;",
-            cellWidths = c("33%", "33%", "33%"),
+            cellWidths = c("50%", "50%"),
             cellArgs = list(style = "padding: 6px; text-align: center;"),
 
-            actionButton('corrigeerlemmas' , "Corrigeer lemma's"),
             actionButton('zoekvervanglemma', "Zoek en vervang een lemma"  ),
             actionButton('zoekvervangpos'  , "Zoek en vervang een POS-tag")
           )
@@ -486,66 +485,6 @@ server <- function(input, output, session)
       shiny::tags$script("$('#shiny-modal').modal().focus();")
     )
   }
-
-  observeEvent(input$corrigeerlemmas,
-  {
-    show_modal_spinner(text = HTML("<br>De lemma's worden gecorrigeerd, dit kan even duren.<br>Sluit de pagina niet af."))
-
-    listFiles3 <- str_extract(list.files(path = "docs", pattern = "(*.xml)|(*.XML)", recursive = F, full.names = F), paste0("[:graph:]+(?=\\.(xml|XML))"))
-
-    done <- data.frame()
-
-    for (i in 1:length(listFiles3))
-    {
-      done <- rbind(done, read.delim(paste0("docs/", listFiles3[i], ".tsv"), quote=""))
-    }
-
-    done$line <- NULL
-    done <- unique(done)
-
-    # # #
-
-    WB <- read_delim("WB.csv",
-                     delim = "\t",
-                     escape_double = FALSE,
-                     trim_ws = TRUE,
-                     show_col_types = FALSE)
-
-    WB <- na.omit(data.frame(lemmaGN = WB$lemmaGN, lemmaNL = WB$lemmaNL))
-
-    WB <- unique(subset(WB, !grepl(";", WB$lemmaNL)))
-
-    # # #
-
-    df <- hot_to_r(input$resultTAB)
-    df$check <- ""
-
-    for (i in 1:nrow(df))
-    {
-      if (!grepl("^\\$", df$token_GN[i]) & !grepl("^#", df$token_GN[i]))
-      {
-        subDone <- unique(subset(done, (token_GN==df$token_GN[i]) & (upos==df$upos[i])))
-
-        if (nrow(subDone)== 1)
-        {
-          subWB <- unique(subset(WB, WB$lemmaGN==df$token_GN[i]))
-
-          if (nrow(subWB)==1)
-          {
-            df$lemma_NL[i] <- as.character(subDone$lemma_NL[1])
-            df$check[i] <- "🗸"
-          }
-        }
-      }
-    }
-
-    global$resultTAB <- df
-
-    remove_modal_spinner()
-
-    nr <- nrow(subset(df, check=="🗸"))
-    showNotification(paste(nr, " lemma's gecorrigeerd"), type = "message", duration = 60)
-  })
 
   observeEvent(input$zoekvervanglemma,
   {
