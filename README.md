@@ -101,7 +101,7 @@ With `script2_corpus_statistics.R` some statistics is provided: the number and p
 
 With `script3_train_model.R` a model is trained using the training data and the dev data in the subfolder `conllu`. The model is saved as `nds_gronings-ud-GitHub-demo.udpipe`.
 
-With `script4_k-fold_cross-validation.R` a A _k_-fold cross-validation (with _k_=10) can be carried out in order to validate the performance of the corpus. 
+With `script4_k-fold_cross-validation.R` a _k_-fold cross-validation (with _k_=10) can be carried out in order to validate the performance of the corpus. 
 
 With `udpipegrunnegs.R` text that is written in  Gronings can be tokenized, lemmatized and POS-tagged. The model `nds_gronings-ud-GitHub-demo.udpipe` is used. Instructions on how to use that script are given in the script itself. The script can be tested on the file `Grunnegs.txt`.
 
