@@ -105,23 +105,23 @@ With `script4_k-fold_cross-validation.R` a _k_-fold cross-validation (with _k_=1
 
 With `udpipegrunnegs.R` text that is written in  Gronings can be tokenized, lemmatized and POS-tagged. The model `nds_gronings-ud-GitHub-demo.udpipe` is used. Instructions on how to use that script are given in the script itself. The script can be tested on the file `Grunnegs.txt`.
 
+The folder `checkLemmasAndPOStags_GenerateXML` contains software of a web app that can be used for checking lemmas and POS-tags that were added to a text using the script `udpipegrunnegs.R`. 
 
+The app shows the text in tabular format, where for each token a lemma and POS-tag is shown. Both the lemma and the POS-tag can be corrected. There are also two functions: **Zoek en vervang** een lemma (Eng. Find and  replace a lemma) and **Zoek en vervang een POS-tag** (Find and replace a POS tag). When using the first function, for all occurences of a particular combination of token and lemma the lemma is replaced. When using the second function, for all occurences of a particular combination of token and POS-tag the POS-tag is replaced.
 
+The login credentials of  the app are: 
+user name: woordwaark
+password: w00rdw@@rk
 
+Further comments:
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+1. The tab-delimited text files that needs to be corrected are put in the subfolder ‘docs’.
+2. Credentials of users that are authorized to use  the program are found in the file data.csv which is found in the subfolder ‘auth’.
 
 ## 6. Saving as XML files
+
+
+
+
+
+
