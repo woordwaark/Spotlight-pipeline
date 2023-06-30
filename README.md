@@ -95,6 +95,11 @@ Ter | Ter | PROPN
 Laan | Laan | PROPN
 . | . | PUNCT
 
+The software for lemmatizing and POS-tagging words in text that is written in Gronings can be found in this GitHub repository in the folder `addLemmasAndPOStags`. This folder contains five scripts. In the subfolder `texts` a small corpus is found that consists of four texts: `Wikipedia1.tsv`, `Wikipedia2.tsv`, `Wikipedia3.tsv` and `Wikipedia4.tsv`. The texts are lemmatized and POS-tagged and are stored as tab-delimited text files. With `script1_combine_tables_split_in_train_dev_test.R` those files are combined into one and subsequently split in training data (80%), dev data (10%) and test data (10%).
+
+With `script2_corpus_statistics.R` some statistics is provided: the number and percentage of tokens, words and sentences.
+
+
 
 
 
