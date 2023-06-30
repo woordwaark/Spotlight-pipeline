@@ -36,8 +36,8 @@ The app takes the PDFs with text layers as input. When a volunteer processes a P
 
 For an extensive manual see `handleiding.pdf` in the folder `addMetaData_CheckText`.
 
-The login credentials of  the app are: 
-user name: woordwaark
+The login credentials of  the app are:<br>
+user name: woordwaark<br>
 password: w00rdw@@rk
 
 Further comments:
@@ -109,8 +109,8 @@ The folder `checkLemmasAndPOStags_GenerateXML` contains software of a web app th
 
 The app shows the text in tabular format, where for each token a lemma and POS-tag is shown. Both the lemma and the POS-tag can be corrected. There are also two functions: **Zoek en vervang** een lemma (Eng. Find and  replace a lemma) and **Zoek en vervang een POS-tag** (Find and replace a POS tag). When using the first function, for all occurences of a particular combination of token and lemma the lemma is replaced. When using the second function, for all occurences of a particular combination of token and POS-tag the POS-tag is replaced.
 
-The login credentials of  the app are: 
-user name: woordwaark
+The login credentials of  the app are:<br>
+user name: woordwaark<br>
 password: w00rdw@@rk
 
 Further comments:
