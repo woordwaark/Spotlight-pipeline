@@ -62,6 +62,54 @@ We developed a lemmatizer which lemmatizes tokens in Gronings to lemmas in Dutch
 
 To be able to lemmatize, a computer model must be trained on the basis of a training corpus. Our training corpus consisted of six texts in Groningen, a file of 109765 tokens, 93739 words and 6513 sentences. When allocating the lemmas, a Dutch cognate was chosen where possible. If there was no cognate in Dutch for the Groningen word, a non-cognate was chosen.
 
+To be able to lemmatize, a computer model must be trained on the basis of a training corpus. Our training corpus consisted of six texts in Groningen, a file of 109765 tokens, 93739 words and 6513 sentences. When allocating the lemmas, a Dutch cognate was chosen where possible. If there was no cognate in Dutch for the Groningen word, a non-cognate was chosen.
+
+Assigning part-of-speech tags (POS tags) to the words is important because some Groningen words – just like some Dutch words – belong to a different part of speech depending on the context in which they appear. Example: for the word _aal_ there are three parts of speech:
+
+word | part-of-speech | meaning
+--- | --- | ---
+aal | adverb |  constantly; more; surely
+aal | pronoun | all; everyone
+aal | noun | the universe
+
+So if you want to search the corpus for sentences containing aal, you will also need to specify the part of speech.
+
+A table with tokens in Gronings, lemmas in Dutch POS-tags may look like this table:
+
+token GN | lemma NL | POS-tag
+--- | --- | ---
+Wie | wij | NOUN
+zellen | zullen | AUX
+perbaaiern | proberen | VERB
+of | of | CCONJ
+wie | wij | PRON
+‘t | het | PRON
+net | net | ADV
+zo | zo | ADV
+goud | goed | ADJ
+doun | doen | VERB
+kennen | kunnen | AUX
+as | als | ADP
+meneer | meneer | NOUN
+Ter | Ter | PROPN
+Laan | Laan | PROPN
+. | . | PUNCT
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
