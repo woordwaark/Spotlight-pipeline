@@ -20,22 +20,22 @@
 # The file 'nds_gronings-ud-GitHub_demo.udpipe' should reside in the same      #
 # directory as where this script is stored.                                    #
 #                                                                              #
-# The file 'Grunnegs.txt' is added as an example text. It can be processed by  #
+# The file 'Grunnen.txt' is added as an example text. It can be processed by   #
 # entering the following command in a terminal:                                #
 #                                                                              #
-# $ ./udpipegrunnegs.R -i Grunnegs.txt -f -o Grunnegs.xlsx -x                  #
+# $ ./udpipegrunnegs.R -i Grunnen.txt -f -o Grunnen.xlsx -x                    #
 #                                                                              #
-# where the result is stored as an Excel spreadsheet in Grunnegs.xlsx          #
+# where the result is stored as an Excel spreadsheet in Grunnen.xlsx           #
 #                                                                              #
 # or read from pipe:                                                           #
 #                                                                              #
-# $ cat Grunnegs.txt|./udpipegrunnegs.R -i - -e -t > Grunnegs.tsv              #
+# $ cat Grunnen.txt|./udpipegrunnegs.R -i - -e -t > Grunnen.tsv                #
 #                                                                              #
 # or read from user input (close with Ctrl-d):                                 #
 #                                                                              #
-# $ ./udpipegrunnegs.R -i - -e -t > Grunnegs.tsv                               #
+# $ ./udpipegrunnegs.R -i - -e -t > Grunnen.tsv                                #
 #                                                                              #
-# where the result is stored as a tab-separated file in Grunnegs.tsv.          #
+# where the result is stored as a tab-separated file in Grunnen.tsv.           #
 #                                                                              #
 # For information about usage and options enter:                               #
 #                                                                              #
