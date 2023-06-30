@@ -122,7 +122,7 @@ Further comments:
 
 The Excel files from the previous step contain the metadata, the division into sources, articles, paragraphs and words. For each token a lemma and a POS-tag is given. 
 
-When the lemmas and POS-tags are corrected, in the same app as used in the previous step the user can go to **Bewerking afsluiten** (Eng. Finish editing). Then when clicking on **Sla resultaten definitief op** (Eng. Save results permanently) the table is saved in XML format, so that it becomes searchable by, for example, BlackLab, an open source corpus retrieval engine developed by Jan Niestadt at the Institute for the Dutch Language, see https://github.com/INL/BlackLab . The file 'example.xml' shows how an XML file may look like.
+When the lemmas and POS-tags are corrected, in the same app as used in the previous step the user can go to **Bewerking afsluiten** (Eng. Finish editing). Then when clicking on **Sla resultaten definitief op** (Eng. Save results permanently) the table is saved in XML format, so that it becomes searchable by, for example, BlackLab, an open source corpus retrieval engine developed by Jan Niestadt at the Institute for the Dutch Language, see https://github.com/INL/BlackLab . The file `example.xml` shows how an XML file may look like.
 
 
 
