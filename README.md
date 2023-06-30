@@ -95,9 +95,15 @@ Ter | Ter | PROPN
 Laan | Laan | PROPN
 . | . | PUNCT
 
-The software for lemmatizing and POS-tagging words in text that is written in Gronings can be found in this GitHub repository in the folder `addLemmasAndPOStags`. This folder contains five scripts. In the subfolder `texts` a small corpus is found that consists of four texts: `Wikipedia1.tsv`, `Wikipedia2.tsv`, `Wikipedia3.tsv` and `Wikipedia4.tsv`. The texts are lemmatized and POS-tagged and are stored as tab-delimited text files. With `script1_combine_tables_split_in_train_dev_test.R` those files are combined into one and subsequently split in training data (80%), dev data (10%) and test data (10%).
+The software for lemmatizing and POS-tagging words in text that is written in Gronings can be found in this GitHub repository in the folder `addLemmasAndPOStags`. This folder contains five scripts. In the subfolder `texts` a small corpus is found that consists of four texts: `Wikipedia1.tsv`, `Wikipedia2.tsv`, `Wikipedia3.tsv` and `Wikipedia4.tsv`. The texts are lemmatized and POS-tagged and are stored as tab-delimited text files. With `script1_combine_tables_split_in_train_dev_test.R` those files are combined into one and subsequently split in training data (80%), dev data (10%) and test data (10%). The three parts are saved as three CoNLL-U files in the subfolder `conllu`.
 
 With `script2_corpus_statistics.R` some statistics is provided: the number and percentage of tokens, words and sentences.
+
+With `script3_train_model.R` a model is trained using the training data and the dev data in the subfolder `conllu`. The model is saved as `nds_gronings-ud-GitHub-demo.udpipe`.
+
+With `script4_k-fold_cross-validation.R` a A _k_-fold cross-validation (with _k_=10) can be carried out in order to validate the performance of the corpus. 
+
+With `udpipegrunnegs.R` text that is written in  Gronings can be tokenized, lemmatized and POS-tagged. The model `nds_gronings-ud-GitHub-demo.udpipe` is used. Instructions on how to use that script are given in the script itself. The script can be tested on the file `Grunnegs.txt`.
 
 
 
