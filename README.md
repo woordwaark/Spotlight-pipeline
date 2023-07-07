@@ -32,7 +32,7 @@ For a article the following metadata can be included: author, title, genre (pros
 
 We developed a web app that can be used for entering the meta data. The app is found in this GitHub repository in the folder `addMetaData_CheckText`. The app is implemented in R Shiny. Knowledge about R and the R package Shiny is required in order to install this app.
 
-The app takes the PDFs with text layers as input. When a volunteer processes a PDF, the text layer is extracted from the PDF, and the PDF and the text are shown side by side in the app. In order to enter the meta data of a source, the volunteer selects a source and clicks on **Voer metadata in**. Then in the next screen the volunteer clicks on **Bron** and enters  the data in the input fields. When clicking OK, the data is pasted at the beginning of the text. All metadata lines of the source start with $. Then for each article the volunteer clicks the **Artikel** button and enters the data. After clicking OK, the data is copied to  the clipboard. Then the volunteer clicks in the text right before where the article begins and pastes the data. All meta data lines of the article start with #.
+The app takes the PDFs with text layers as input. When a volunteer processes a PDF, the text layer is extracted from the PDF, and the PDF and the text are shown side by side in the app. In order to enter the meta data of a source, the volunteer selects a source and clicks on **Voer metadata in** (Eng. Enter metadata). Then in the next screen the volunteer clicks on **Bron** (Eng. Source) and enters  the data in the input fields. When clicking OK, the data is pasted at the beginning of the text. All metadata lines of the source start with $. Then for each article the volunteer clicks the **Artikel** (Engl. Article) button and enters the data. After clicking OK, the data is copied to  the clipboard. Then the volunteer clicks in the text right before where the article begins and pastes the data. All meta data lines of the article start with #.
 
 For an extensive manual see `handleiding.pdf` in the folder `addMetaData_CheckText`.
 
@@ -109,7 +109,7 @@ With `udpipegrunnegs.R` text that is written in  Gronings can be tokenized, lemm
 
 The folder `checkLemmasAndPOStags_GenerateXML` contains software of a web app that can be used for checking lemmas and POS-tags that were added to a text using the script `udpipegrunnegs.R`. 
 
-The app shows the text in tabular format, where for each token a lemma and POS-tag is shown. Both the lemma and the POS-tag can be corrected. There are also two functions: **Zoek en vervang** een lemma (Eng. Find and  replace a lemma) and **Zoek en vervang een POS-tag** (Find and replace a POS tag). When using the first function, for all occurences of a particular combination of token and lemma the lemma is replaced. When using the second function, for all occurences of a particular combination of token and POS-tag the POS-tag is replaced.
+The app shows the text in tabular format, where for each token a lemma and POS-tag is shown. Both the lemma and the POS-tag can be corrected. There are also two functions: **Zoek en vervang een lemma** (Eng. Find and  replace a lemma) and **Zoek en vervang een POS-tag** (Find and replace a POS tag). When using the first function, for all occurences of a particular combination of token and lemma the lemma is replaced. When using the second function, for all occurences of a particular combination of token and POS-tag the POS-tag is replaced.
 
 The login credentials of  the app are:<br>
 user name: woordwaark<br>
@@ -126,6 +126,26 @@ The Excel files from the previous step contain the metadata, the division into s
 
 When the lemmas and POS-tags are corrected, in the same app as used in the previous step the user can go to **Bewerking afsluiten** (Eng. Finish editing). Then when clicking on **Sla resultaten definitief op** (Eng. Save results permanently) the table is saved in XML format, so that it becomes searchable by, for example, BlackLab, an open source corpus retrieval engine developed by Jan Niestadt at the Institute for the Dutch Language, see https://github.com/INL/BlackLab . The file `example.xml` shows how an XML file may look like.
 
+## 7. All-in-one app
 
+In this repository we included an app that we haven't actually used, but which may be useful when the resources available to build a corpus are very limited. The code of  the app can be found in the subfolder `OCRPDF_AddMetaData_CheckText_AddAndCheckLemmasAndPOStags_GenerateXML`. Using this app the steps 2 to 6 can be performed: OCR,  adding metadata, checking the texts, adding lemmas and part-of-speech-tags and saving metadata and texts as XML files.
 
+As input the app can process scans that are saved as PDFs, even when the PDFs do not have a text layer. In that case OCR is applied using OCRmyPDF (see https://github.com/ocrmypdf/OCRmyPDF) which in turn uses Tesseract OCR (see https://github.com/tesseract-ocr/tesseract).
+
+Both OCRmyPDF and  Tesseract OCR should be installed. Instructions on how to install them in Ubuntu Linux are given in  the app script itself. For Gronings one should choose the Dutch language file (tesseract-ocr-nld).
+
+Once a text layer has been added by OCRmyPDF, the metadata can be added and the text can be checked after clicking on ‘Voer metadata in’ (Eng. Enter metadata). Next by clicking on ‘Voeg woordsoorten toe’ (Eng. Add POS-tags) and subsequently ‘Maak tabel’ (Eng. Make table) Dutch lemmas and POS-tags are assigned to the words in the text. Tokens, lemmas and POS-tags are shown in tabular form and can be corrected by the user. For lemmatizing and POS-tagging the model `nds_gronings-ud-GitHub-demo.udpipe` is used which was trained with `script3_train_model.R` that is found in the subfolder `addLemmasAndPOStags`. 
+
+When clicking on ‘Bewerking afsluiten’ (Eng. Finish editing) and subsequently Sla resultaten definitief op (Eng. Save results permanently) the table is saved in XML format.
+
+The login credentials of  the app are:<br>
+user name: woordwaark<br>
+password: w00rdw@@rk
+
+Further comments:
+
+1. db.xlsx contains meta data that will be automatically filled in in the input fields when the volunteer clicks the Bron button.
+2. The PDFs are put in the subfolder ‘docs’.
+3. Credentials of users that are authorized to use  the program are found in the file data.csv which is found in the subfolder ‘auth’.
+4. The model `nds_gronings-ud-GitHub-demo.udpipe` is found in  the subfolder `www`.
 
