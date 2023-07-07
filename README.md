@@ -128,7 +128,7 @@ When the lemmas and POS-tags are corrected, in the same app as used in the previ
 
 ## 7. All-in-one app
 
-In this repository we included an app that we haven't actually used, but which may be useful when the resources available to build a corpus are very limited. The code of  the app can be found in the subfolder `OCRPDF_AddMetaData_CheckText_AddAndCheckLemmasAndPOStags_GenerateXML`. Using this app the steps 2 to 6 can be performed: OCR,  adding metadata, checking the texts, adding lemmas and part-of-speech-tags and saving metadata and texts as XML files.
+In this repository we included an app that we haven't actually used, but which may be useful when the resources available to build a corpus are very limited. The code of  the app can be found in the subfolder `OCRPDF_AddMetaData_CheckText_AddAndCheckLemmasAndPOStags_GenerateXML`. Using this app the steps 2 to 6 can be performed: 2. OCR,  3. adding metadata, 4. checking the texts, 5. adding lemmas and part-of-speech-tags and 6. saving metadata and texts as XML files.
 
 As input the app can process scans that are saved as PDFs, even when the PDFs do not have a text layer. In that case OCR is applied using OCRmyPDF (see https://github.com/ocrmypdf/OCRmyPDF) which in turn uses Tesseract OCR (see https://github.com/tesseract-ocr/tesseract).
 
