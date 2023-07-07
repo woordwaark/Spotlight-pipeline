@@ -53,6 +53,8 @@ The OCR text is also checked in the same app in which the metadata is added. The
 1. Correcting glaring OCR errors such as wrong and/or strange characters.
 2. We are only interested in sentences that are written in Gronings.  So (large amounts of) text that is not written in Gronings, and data like a title page, a table of contents or a colophon are removed.
 
+N.B.: in the course of the digitization project, an extra check appeared to be necessary in which the metadata and the text were checked. We put an app online that was in fact a copy of the app used for 3. and 4. This app is not included in this repository because the differences with the app for 3. and 4. are negligible.
+
 ## 5. Adding lemma’s and part-of-speech-tags
 
 We developed a lemmatizer which lemmatizes tokens in Gronings to lemmas in Dutch. Assigning Dutch lemmas to tokens in texts that are written in Gronings is important for two reasons:
