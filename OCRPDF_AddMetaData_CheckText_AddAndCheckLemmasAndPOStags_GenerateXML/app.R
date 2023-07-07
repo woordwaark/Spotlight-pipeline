@@ -1369,7 +1369,7 @@ server <- function(input, output, session)
   {
     show_modal_spinner(text = HTML("<br>Woordsoorten worden toegevoegd, dit kan even duren.<br>Sluit de pagina niet af."))
 
-    UDgn <- udpipe_load_model(file = "www/nds_gronings-ud-1.0-20220314.udpipe")
+    UDgn <- udpipe_load_model(file = "www/nds_gronings-ud-GitHub-demo.udpipe")
     GNtagged <- data.frame()
 
     l <- 0
