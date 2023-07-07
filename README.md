@@ -132,9 +132,9 @@ In this repository we included an app that we haven't actually used, but which m
 
 As input the app can process scans that are saved as PDFs, even when the PDFs do not have a text layer. In that case OCR is applied using OCRmyPDF (see https://github.com/ocrmypdf/OCRmyPDF) which in turn uses Tesseract OCR (see https://github.com/tesseract-ocr/tesseract). Therefore, both OCRmyPDF and  Tesseract OCR should be installed. Instructions on how to install them in Ubuntu Linux are given in  the app script itself. For Gronings one should choose the Dutch language file (tesseract-ocr-nld).
 
-Once a text layer has been added by OCRmyPDF, the metadata can be added and the text can be checked after clicking on ‘Voer metadata in’ (Eng. Enter metadata). Next by clicking on ‘Voeg woordsoorten toe’ (Eng. Add POS-tags) and subsequently ‘Maak tabel’ (Eng. Make table) Dutch lemmas and POS-tags are assigned to the words in the text. Tokens, lemmas and POS-tags are shown in tabular form and can be corrected by the user. For lemmatizing and POS-tagging the model `nds_gronings-ud-GitHub-demo.udpipe` is used which was trained with `script3_train_model.R` that is found in the subfolder `addLemmasAndPOStags`. 
+Once a text layer has been added by OCRmyPDF, the metadata can be added and the text can be checked after clicking on **Voer metadata in** (Eng. Enter metadata). Next by clicking on **Voeg woordsoorten toe** (Eng. Add POS-tags) and subsequently **Maak tabel** (Eng. Make table) Dutch lemmas and POS-tags are assigned to the words in the text. Tokens, lemmas and POS-tags are shown in tabular form and can be corrected by the user. For lemmatizing and POS-tagging the model `nds_gronings-ud-GitHub-demo.udpipe` is used which was trained with `script3_train_model.R` that is found in the subfolder `addLemmasAndPOStags`. 
 
-When clicking on ‘Bewerking afsluiten’ (Eng. Finish editing) and subsequently Sla resultaten definitief op (Eng. Save results permanently) the table is saved in XML format.
+When clicking on **Bewerking afsluiten** (Eng. Finish editing) and subsequently **Sla resultaten definitief op** (Eng. Save results permanently) the table is saved in XML format.
 
 The login credentials of  the app are:<br>
 user name: woordwaark<br>
