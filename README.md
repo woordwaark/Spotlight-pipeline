@@ -130,9 +130,7 @@ When the lemmas and POS-tags are corrected, in the same app as used in the previ
 
 In this repository we included an app that we haven't actually used, but which may be useful when the resources available to build a corpus are very limited. The code of  the app can be found in the subfolder `OCRPDF_AddMetaData_CheckText_AddAndCheckLemmasAndPOStags_GenerateXML`. Using this app the steps 2 to 6 can be performed: 2. OCR,  3. adding metadata, 4. checking the texts, 5. adding lemmas and part-of-speech-tags and 6. saving metadata and texts as XML files.
 
-As input the app can process scans that are saved as PDFs, even when the PDFs do not have a text layer. In that case OCR is applied using OCRmyPDF (see https://github.com/ocrmypdf/OCRmyPDF) which in turn uses Tesseract OCR (see https://github.com/tesseract-ocr/tesseract).
-
-Both OCRmyPDF and  Tesseract OCR should be installed. Instructions on how to install them in Ubuntu Linux are given in  the app script itself. For Gronings one should choose the Dutch language file (tesseract-ocr-nld).
+As input the app can process scans that are saved as PDFs, even when the PDFs do not have a text layer. In that case OCR is applied using OCRmyPDF (see https://github.com/ocrmypdf/OCRmyPDF) which in turn uses Tesseract OCR (see https://github.com/tesseract-ocr/tesseract). Therefore, both OCRmyPDF and  Tesseract OCR should be installed. Instructions on how to install them in Ubuntu Linux are given in  the app script itself. For Gronings one should choose the Dutch language file (tesseract-ocr-nld).
 
 Once a text layer has been added by OCRmyPDF, the metadata can be added and the text can be checked after clicking on ‘Voer metadata in’ (Eng. Enter metadata). Next by clicking on ‘Voeg woordsoorten toe’ (Eng. Add POS-tags) and subsequently ‘Maak tabel’ (Eng. Make table) Dutch lemmas and POS-tags are assigned to the words in the text. Tokens, lemmas and POS-tags are shown in tabular form and can be corrected by the user. For lemmatizing and POS-tagging the model `nds_gronings-ud-GitHub-demo.udpipe` is used which was trained with `script3_train_model.R` that is found in the subfolder `addLemmasAndPOStags`. 
 
