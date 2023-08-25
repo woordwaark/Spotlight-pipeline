@@ -19,7 +19,7 @@ Each of the  steps is described below.
 The books and other sources were scanned by volunteers using Ricoh copiers that were available at the library of the University of Groningen. The scans were saved as PDF or TIFF format and sent by e-mail to a folder on Google Drive.
 
 ## 2.  Optical character recognition (OCR)
-Optical character recognition was done by volunteers using ABBYY FineReader PDF, an optical character recognition application developed by ABBYY. The program was installed on laptops that were borrowed by volunteers. The scans (see the previous step) were sent and distributed among the laptops and subsequently processed by the volunteers using the OCR program. This resulted in PDFs with an added text layer which were send back to Google Drive.
+Optical character recognition was done by volunteers using ABBYY FineReader PDF, an optical character recognition application developed by ABBYY. The program was installed on laptops that were borrowed by volunteers. The scans (see the previous step) were sent and distributed among the laptops and subsequently processed by the volunteers using the OCR program. The ABBYY OCR program highlights words that might contain mistakes, based on character legibility and word recognition. Each ABBYY OCR vocabulary is prepopulated with Groningen dictionary words, and the volunteers extended these vocabularies when ABBYY marked the word as uncertain. The vocabulary extensions decrease the number of words that ABBYY marks as uncertain, and therefore increases annotation speed. The OCR proces resulted in PDFs with an added text layer which were send back to Google Drive.
 
 ## 3. Adding metadata
 In this step metadata is added. The metadata was partly available through the library of the University of Groningen, partly found in the sources themselves, and partly needed to be looked up, for example details about the authors.
@@ -57,14 +57,18 @@ N.B.: in the course of the digitization project, an extra check appeared to be n
 
 ## 5. Adding lemma’s and part-of-speech-tags
 
+### 5.1 Lemmatization
+
 We developed a lemmatizer which lemmatizes tokens in Gronings to lemmas in Dutch. Assigning Dutch lemmas to tokens in texts that are written in Gronings is important for two reasons:
 
 1. This allows the user to search the corpus in both Gronings (via the tokens) and Dutch (lemmas);
 2. Regional, morphological and spelling variants of a word are 'linked' in this way. For example, if a user searches via the Dutch word _huis_ (English house), sentences with all Groningen variants are found: _hoes_, _huus_, _hoeske_, _huusie_, etc. If the user searches for the Groningen word _hoes_, it is possible not only to find sentences that include the word _hoes_, but also sentences that include _huus_, _hoeske_ and _huusie_.
 
-To be able to lemmatize, a computer model must be trained on the basis of a training corpus. Our training corpus consisted of six texts in Groningen, a file of 109765 tokens, 93739 words and 6513 sentences. When allocating the lemmas, a Dutch cognate was chosen where possible. If there was no cognate in Dutch for the Groningen word, a non-cognate was chosen.
+To be able to lemmatize, a computer model must be trained on the basis of a training corpus. Our training corpus consisted of six texts in Groningen, a file of 109,765 tokens, 93,739 words and 6513 sentences. When allocating the lemmas, a Dutch cognate was chosen where possible. If there was no cognate in Dutch for the Groningen word, a non-cognate was chosen. This training corpus was manually created as a part of our project.
 
-To be able to lemmatize, a computer model must be trained on the basis of a training corpus. Our training corpus consisted of six texts in Groningen, a file of 109765 tokens, 93739 words and 6513 sentences. When allocating the lemmas, a Dutch cognate was chosen where possible. If there was no cognate in Dutch for the Groningen word, a non-cognate was chosen.
+For lemmatisation, we trained a computer model called [PIE](https://github.com/emanjavacas/pie) with our training data. When we test our model on new data, we achieve 89% accuracy. A visual inspection suggests that a substantial portion of the 11% mistakes are cases where the model generates a Dutch-sounding cognate that is not commonly used, while the word was annotated with a non-cognate. We do not consider this a problem since different Gronings variants still normalize to the same (pseudo-)Dutch lemma, and this is the primary goal of the lemmatization proces.
+
+### 5.2 Part-of-speech tagging
 
 Assigning part-of-speech tags (POS tags) to the words is important because some Groningen words – just like some Dutch words – belong to a different part of speech depending on the context in which they appear. Example: for the word _aal_ there are three parts of speech:
 
@@ -96,6 +100,10 @@ meneer | meneer | NOUN
 Ter | Ter | PROPN
 Laan | Laan | PROPN
 . | . | PUNCT
+
+We automatically annotate our corpus with a BERTje-based language model. BERTje is a general language model for Dutch. This model is trained for Dutch POS tagging, based on training data from the Universal Dependencies project. Additionally, the model is adapted to work with Gronings words through a [multi-step adaption process](https://aclanthology.org/2021.findings-acl.433.pdf). This model achieves 92% accuracy for Gronings.
+
+### 5.3 Software
 
 The software for lemmatizing and POS-tagging words in text that is written in Gronings can be found in this GitHub repository in the folder `addLemmasAndPOStags`. This folder contains five scripts. In the subfolder `texts` a small corpus is found that consists of four texts: `Wikipedia1.tsv`, `Wikipedia2.tsv`, `Wikipedia3.tsv` and `Wikipedia4.tsv`. The texts are lemmatized and POS-tagged and are stored as tab-delimited text files. With `script1_combine_tables_split_in_train_dev_test.R` those files are combined into one and subsequently split in training data (80%), dev data (10%) and test data (10%). The three parts are saved as three CoNLL-U files in the subfolder `conllu`.
 
@@ -146,4 +154,4 @@ Further comments:
 2. The PDFs are put in the subfolder ‘docs’.
 3. Credentials of users that are authorized to use  the program are found in the file data.csv which is found in the subfolder ‘auth’.
 4. The model `nds_gronings-ud-GitHub-demo.udpipe` is found in  the subfolder `www`.
-
+5. 
