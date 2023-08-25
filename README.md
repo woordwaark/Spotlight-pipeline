@@ -57,7 +57,7 @@ N.B.: in the course of the digitization project, an extra check appeared to be n
 
 ## 5. Adding lemma’s and part-of-speech-tags
 
-### 5.1 Lemmatization
+### Lemmatization
 
 We developed a lemmatizer which lemmatizes tokens in Gronings to lemmas in Dutch. Assigning Dutch lemmas to tokens in texts that are written in Gronings is important for two reasons:
 
@@ -68,7 +68,7 @@ To be able to lemmatize, a computer model must be trained on the basis of a trai
 
 For lemmatisation, we trained a computer model called [PIE](https://github.com/emanjavacas/pie) with our training data. When we test our model on new data, we achieve 89% accuracy. A visual inspection suggests that a substantial portion of the 11% mistakes are cases where the model generates a Dutch-sounding cognate that is not commonly used, while the word was annotated with a non-cognate. We do not consider this a problem since different Gronings variants still normalize to the same (pseudo-)Dutch lemma, and this is the primary goal of the lemmatization proces.
 
-### 5.2 Part-of-speech tagging
+### Part-of-speech tagging
 
 Assigning part-of-speech tags (POS tags) to the words is important because some Groningen words – just like some Dutch words – belong to a different part of speech depending on the context in which they appear. Example: for the word _aal_ there are three parts of speech:
 
@@ -103,7 +103,7 @@ Laan | Laan | PROPN
 
 We automatically annotate our corpus with a BERTje-based language model. BERTje is a general language model for Dutch. This model is trained for Dutch POS tagging, based on training data from the Universal Dependencies project. Additionally, the model is adapted to work with Gronings words through a [multi-step adaption process](https://aclanthology.org/2021.findings-acl.433.pdf). This model achieves 92% accuracy for Gronings.
 
-### 5.3 Software
+### Software
 
 The software for lemmatizing and POS-tagging words in text that is written in Gronings can be found in this GitHub repository in the folder `addLemmasAndPOStags`. This folder contains five scripts. In the subfolder `texts` a small corpus is found that consists of four texts: `Wikipedia1.tsv`, `Wikipedia2.tsv`, `Wikipedia3.tsv` and `Wikipedia4.tsv`. The texts are lemmatized and POS-tagged and are stored as tab-delimited text files. With `script1_combine_tables_split_in_train_dev_test.R` those files are combined into one and subsequently split in training data (80%), dev data (10%) and test data (10%). The three parts are saved as three CoNLL-U files in the subfolder `conllu`.
 
@@ -154,4 +154,3 @@ Further comments:
 2. The PDFs are put in the subfolder ‘docs’.
 3. Credentials of users that are authorized to use  the program are found in the file data.csv which is found in the subfolder ‘auth’.
 4. The model `nds_gronings-ud-GitHub-demo.udpipe` is found in  the subfolder `www`.
-5. 
