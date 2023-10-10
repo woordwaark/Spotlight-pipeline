@@ -26,7 +26,7 @@ In this step metadata is added. The metadata was partly available through the li
 
 When considering a data structure, we considered that each source consists of one or more articles. This is the case for magazines, newspapers and books. A book is then a source with only one article. Metadata must be added for each source as well as for each article within a source. Metadata about the source as a whole is placed at the beginning of the text file that contains the OCR text, and metadata about an article within a source is placed at the beginning of the article.
 
-For a source the following metadata can be included: editor, title, source type (book, journal, newpaper, website), series, year, number, place of publication, publisher, edition (or printing), url of website, date of consulting website, comments.
+For a source the following metadata can be included: editor, title, source type (book, journal, newspaper, website), series, year, number, place of publication, publisher, edition (or printing), url of website, date of consulting website, comments.
 
 For a article the following metadata can be included: author, title, genre (prose, poetry), language1 (normally Gronings), language2 (if another language is used as well), comments.
 
@@ -66,7 +66,7 @@ We developed a lemmatizer which lemmatizes tokens in Gronings to lemmas in Dutch
 
 To be able to lemmatize, a computer model must be trained on the basis of a training corpus. Our training corpus consisted of six texts in Groningen, a file of 109,765 tokens, 93,739 words and 6513 sentences. When allocating the lemmas, a Dutch cognate was chosen where possible. If there was no cognate in Dutch for the Groningen word, a non-cognate was chosen. This training corpus was manually created as a part of our project.
 
-For lemmatisation, we trained a computer model called [PIE](https://github.com/emanjavacas/pie) with our training data. When we test our model on new data, we achieve 89% accuracy. A visual inspection suggests that a substantial portion of the 11% mistakes are cases where the model generates a Dutch-sounding cognate that is not commonly used, while the word was annotated with a non-cognate. We do not consider this a problem since different Gronings variants still normalize to the same (pseudo-)Dutch lemma, and this is the primary goal of the lemmatization proces.
+For lemmatization, we trained a computer model called [PIE](https://github.com/emanjavacas/pie) with our training data. When we test our model on new data, we achieve 89% accuracy. A visual inspection suggests that a substantial portion of the 11% mistakes are cases where the model generates a Dutch-sounding cognate that is not commonly used, while the word was annotated with a non-cognate. We do not consider this a problem since different Gronings variants still normalize to the same (pseudo-)Dutch lemma, and this is the primary goal of the lemmatization proces.
 
 ### Part-of-speech tagging
 
@@ -80,7 +80,7 @@ aal | noun | the universe
 
 So if you want to search the corpus for sentences containing aal, you will also need to specify the part of speech.
 
-A table with tokens in Gronings, lemmas in Dutch POS-tags may look like this table:
+A table with tokens in Gronings, lemmas in Dutch, and POS-tags may look like this table:
 
 token GN | lemma NL | POS-tag
 --- | --- | ---
@@ -105,7 +105,7 @@ We automatically annotate our corpus with a BERTje-based language model. BERTje 
 
 ### Software
 
-The software for lemmatizing and POS-tagging words in text that is written in Gronings can be found in this GitHub repository in the folder `addLemmasAndPOStags`. This folder contains five scripts. In the subfolder `texts` a small corpus is found that consists of four texts: `Wikipedia1.tsv`, `Wikipedia2.tsv`, `Wikipedia3.tsv` and `Wikipedia4.tsv`. The texts are lemmatized and POS-tagged and are stored as tab-delimited text files. With `script1_combine_tables_split_in_train_dev_test.R` those files are combined into one and subsequently split in training data (80%), dev data (10%) and test data (10%). The three parts are saved as three CoNLL-U files in the subfolder `conllu`.
+Software for lemmatizing and POS-tagging words in text that is written in Gronings using UDPipe can be found in this GitHub repository in the folder `addLemmasAndPOStags`. This folder contains five scripts. In the subfolder `texts` a small corpus is found that consists of four texts: `Wikipedia1.tsv`, `Wikipedia2.tsv`, `Wikipedia3.tsv` and `Wikipedia4.tsv`. The texts are lemmatized and POS-tagged and are stored as tab-delimited text files. With `script1_combine_tables_split_in_train_dev_test.R` those files are combined into one and subsequently split in training data (80%), dev data (10%) and test data (10%). The three parts are saved as three CoNLL-U files in the subfolder `conllu`.
 
 With `script2_corpus_statistics.R` some statistics is provided: the number and percentage of tokens, words and sentences.
 
