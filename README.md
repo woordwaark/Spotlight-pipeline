@@ -10,8 +10,9 @@ This document describes the workflow and the tools that were used for digitizing
 2. Optical character recognition (OCR)
 3. Adding metadata
 4. Checking the texts
-5. Adding lemma’s and part-of-speech-tags
-6. Saving as XML files
+5. Extra check of metadata and texts
+6. Adding lemma’s and part-of-speech-tags
+7. Saving as XML files
 
 Each of the  steps is described below.
 
@@ -53,9 +54,13 @@ The OCR text is also checked in the same app in which the metadata is added. The
 1. Correcting glaring OCR errors such as wrong and/or strange characters.
 2. We are only interested in sentences that are written in Gronings.  So (large amounts of) text that is not written in Gronings, and data like a title page, a table of contents or a colophon are removed.
 
-N.B.: in the course of the digitization project, an extra check appeared to be necessary in which the metadata and the text were checked again. We put an app online that was in fact a copy of the app used for 3. and 4. This app can be found in the folder `addMetaData_CheckText_Extra`. For an extensive manual (in Dutch) see `manual.pdf` in the same folder.
+For an extensive manual (in Dutch) see `manual.pdf` in the folder `addMetaData_CheckText`.
 
-## 5. Adding lemma’s and part-of-speech-tags
+## 5. Extra check of metadata and texts
+
+In the course of the digitization project, an extra check appeared to be necessary in which the metadata and the text were checked again. We put an app online that is in fact a copy of the app used for 3. and 4. This app can be found in the folder `addMetaData_CheckText_Extra`. For an extensive manual (in Dutch) see `manual.pdf` in the same folder.
+
+## 6. Adding lemma’s and part-of-speech-tags
 
 ### Lemmatization
 
@@ -132,13 +137,13 @@ Further comments:
 1. The tab-delimited text files that needs to be corrected are put in the subfolder ‘docs’.
 2. Credentials of users that are authorized to use  the program are found in the file data.csv which is found in the subfolder `auth`.
 
-## 6. Saving as XML files
+## 7. Saving as XML files
 
 The Excel files from the previous step contain the metadata, the division into sources, articles, paragraphs and words. For each token a lemma and a POS-tag is given. 
 
 When the lemmas and POS-tags are corrected, in the same app as used in the previous step the user can go to **Bewerking afsluiten** (Eng. Finish editing). Then when clicking on **Sla resultaten definitief op** (Eng. Save results permanently) the table is saved in XML format, so that it becomes searchable by, for example, BlackLab, an open source corpus retrieval engine developed by Jan Niestadt at the Institute for the Dutch Language, see https://github.com/INL/BlackLab . The file `example.xml` shows how an XML file may look like.
 
-## 7. All-in-one app
+## 8. All-in-one app
 
 In this repository we included an app that we haven't actually used, but which may be useful when the resources available to build a corpus are very limited. The code of  the app can be found in the subfolder `OCRPDF_AddMetaData_CheckText_AddAndCheckLemmasAndPOStags_GenerateXML`. Using this app the steps 2 to 6 can be performed: 2. OCR,  3. adding metadata, 4. checking the texts, 5. adding lemmas and part-of-speech-tags and 6. saving metadata and texts as XML files.
 
