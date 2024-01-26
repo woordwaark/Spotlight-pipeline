@@ -34,7 +34,7 @@ We developed a web app that can be used for entering the meta data. The app is f
 
 The app takes the PDFs with text layers as input. When a volunteer processes a PDF, the text layer is extracted from the PDF, and the PDF and the text are shown side by side in the app. In order to enter the meta data of a source, the volunteer selects a source and clicks on **Voer metadata in** (Eng. Enter metadata). Then in the next screen the volunteer clicks on **Bron** (Eng. Source) and enters  the data in the input fields. When clicking OK, the data is pasted at the beginning of the text. All metadata lines of the source start with $. Then for each article the volunteer clicks the **Artikel** (Engl. Article) button and enters the data. After clicking OK, the data is copied to  the clipboard. Then the volunteer clicks in the text right before where the article begins and pastes the data. All meta data lines of the article start with #.
 
-For an extensive manual see `handleiding.pdf` in the folder `addMetaData_CheckText`.
+For an extensive manual (in Dutch) see `manual.pdf` in the folder `addMetaData_CheckText`.
 
 The login credentials of  the app are:<br>
 user name: woordwaark<br>
@@ -53,7 +53,7 @@ The OCR text is also checked in the same app in which the metadata is added. The
 1. Correcting glaring OCR errors such as wrong and/or strange characters.
 2. We are only interested in sentences that are written in Gronings.  So (large amounts of) text that is not written in Gronings, and data like a title page, a table of contents or a colophon are removed.
 
-N.B.: in the course of the digitization project, an extra check appeared to be necessary in which the metadata and the text were checked again. We put an app online that was in fact a copy of the app used for 3. and 4. This app is not included in this repository because the differences with the app that was used for 3. and 4. are negligible.
+N.B.: in the course of the digitization project, an extra check appeared to be necessary in which the metadata and the text were checked again. We put an app online that was in fact a copy of the app used for 3. and 4. This app can be found in the folder `addMetaData_CheckText_Extra`. For an extensive manual (in Dutch) see `manual.pdf` in the same folder.
 
 ## 5. Adding lemma’s and part-of-speech-tags
 
@@ -103,6 +103,10 @@ Laan | Laan | PROPN
 
 We automatically annotate our corpus with a BERTje-based language model. BERTje is a general language model for Dutch. This model is trained for Dutch POS tagging, based on training data from the Universal Dependencies project. Additionally, the model is adapted to work with Gronings words through a [multi-step adaption process](https://aclanthology.org/2021.findings-acl.433.pdf). This model achieves 92% accuracy for Gronings.
 
+### Manuals
+
+Extensive manuals (in Dutch) that provide instructions on how to correct lemmas and POS-tags can be found in the the folder `addLemmasAndPOStags/manuals`.
+
 ### Software
 
 Software for lemmatizing and POS-tagging words in text that is written in Gronings using UDPipe can be found in this GitHub repository in the folder `addLemmasAndPOStags`. This folder contains five scripts. In the subfolder `texts` a small corpus is found that consists of four texts: `Wikipedia1.tsv`, `Wikipedia2.tsv`, `Wikipedia3.tsv` and `Wikipedia4.tsv`. The texts are lemmatized and POS-tagged and are stored as tab-delimited text files. With `script1_combine_tables_split_in_train_dev_test.R` those files are combined into one and subsequently split in training data (80%), dev data (10%) and test data (10%). The three parts are saved as three CoNLL-U files in the subfolder `conllu`.
@@ -126,7 +130,7 @@ password: w00rdw@@rk
 Further comments:
 
 1. The tab-delimited text files that needs to be corrected are put in the subfolder ‘docs’.
-2. Credentials of users that are authorized to use  the program are found in the file data.csv which is found in the subfolder ‘auth’.
+2. Credentials of users that are authorized to use  the program are found in the file data.csv which is found in the subfolder `auth`.
 
 ## 6. Saving as XML files
 
